@@ -1,27 +1,27 @@
 --- 
 # information
 project: 
-  title: "title"
-  description: "description"
+  title: "Function generator"
+  description: "arbitary function generator, using shared RAM as the output data"
   picture: docs/empty.png
-  author: "Author"
+  author: "Matt Venn"
   license: LICENSE
 
 # optional interfaces you want to use: gpio, la1, la2, la3, irq, clk2 & wishbone
-interfaces: ['la1', 'gpio']
+interfaces: ['gpio', 'wishbone', 'openram']
 
 # test within caravel
 caravel_test:
   recipe: "coco_test"
   directory: "caravel_test"
   id: 1
-  module_name: "wrapped_project"
-  instance_name: "wrapped_project"
+  module_name: "wrapped_function_generator"
+  instance_name: "wrapped_function_generator"
 
 # module test
 module_test:
   recipe: "all" 
-  directory: "project directory"
+  directory: "function_generator"
   makefile: "Makefile"
 
 # run the wrapper formal proof
@@ -36,11 +36,11 @@ openlane:
 # source required for various configs and module instantiation
 source:
     - wrapper.v
-    - other source files here
+    - function_generator/src/generator.v
 
 # gds - check nothing on metal 5, DRC & LVS
 gds:
   directory: "gds"
-  gds_filename: "project.gds"
-  lvs_filename: "project.lvs.powered.v"
-  lef_filename: "project.lef"
+  gds_filename: "wrapped_function_generator.gds"
+  lvs_filename: "wrapped_function_generator.lvs.powered.v"
+  lef_filename: "wrapped_function_generator.lef"
