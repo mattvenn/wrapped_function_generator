@@ -34,7 +34,7 @@ void config_generator(uint16_t period, uint8_t end_addr, bool run)
 
 void write_to_ram(uint8_t addr, uint32_t data)
 {
-    reg_sram_start[addr*4] = data;
+    reg_sram_start[addr << 2] = data;
 }
 
 void main()
