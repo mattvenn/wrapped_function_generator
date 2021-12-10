@@ -31,6 +31,7 @@ module wrapped_function_generator(
 
 // shared RAM wishbone controller
 `ifdef USE_OPENRAM
+    output wire         rambus_wb_clk_o,            // clock
     output wire         rambus_wb_rst_o,            // reset
     output wire         rambus_wb_stb_o,            // write strobe
     output wire         rambus_wb_cyc_o,            // cycle
@@ -78,6 +79,7 @@ module wrapped_function_generator(
     wire [`MPRJ_IO_PADS-1:0]    buf_io_out;
     wire [`MPRJ_IO_PADS-1:0]    buf_io_oeb;
     wire [2:0]                  buf_user_irq;
+    wire                        buf_rambus_wb_clk_o;
     wire                        buf_rambus_wb_rst_o;
     wire                        buf_rambus_wb_stb_o;
     wire                        buf_rambus_wb_cyc_o;
@@ -93,6 +95,7 @@ module wrapped_function_generator(
     assign wbs_dat_o    = active ? buf_wbs_dat_o    : 32'b0;
     `endif
     `ifdef USE_OPENRAM
+    assign rambus_wb_clk_o = active ? buf_rambus_wb_clk_o : 1'b0;
     assign rambus_wb_rst_o = active ? buf_rambus_wb_rst_o : 1'b0;
     assign rambus_wb_stb_o = active ? buf_rambus_wb_stb_o : 1'b0;
     assign rambus_wb_cyc_o = active ? buf_rambus_wb_cyc_o : 1'b0;
@@ -120,6 +123,7 @@ module wrapped_function_generator(
     assign wbs_dat_o    = active ? buf_wbs_dat_o    : 32'bz;
     `endif
     `ifdef USE_OPENRAM
+    assign rambus_wb_clk_o = active ? buf_rambus_wb_clk_o : 1'bz;
     assign rambus_wb_rst_o = active ? buf_rambus_wb_rst_o : 1'bz;
     assign rambus_wb_stb_o = active ? buf_rambus_wb_stb_o : 1'bz;
     assign rambus_wb_cyc_o = active ? buf_rambus_wb_cyc_o : 1'bz;
@@ -155,7 +159,7 @@ module wrapped_function_generator(
         .caravel_wb_we_i   (wbs_we_i ),
         .caravel_wb_sel_i  (wbs_sel_i),
         .caravel_wb_dat_i  (wbs_dat_i),
-        .caravel_wb_addr_i (wbs_adr_i),
+        .caravel_wb_adr_i  (wbs_adr_i),
         .caravel_wb_ack_o  (buf_wbs_ack_o),
         .caravel_wb_dat_o  (buf_wbs_dat_o),
 
@@ -167,7 +171,7 @@ module wrapped_function_generator(
         .rambus_wb_we_o    (buf_rambus_wb_we_o),
         .rambus_wb_sel_o   (buf_rambus_wb_sel_o),
         .rambus_wb_dat_o   (buf_rambus_wb_dat_o),
-        .rambus_wb_addr_o  (buf_rambus_wb_addr_o),
+        .rambus_wb_adr_o   (buf_rambus_wb_adr_o),
         .rambus_wb_ack_i   (rambus_wb_ack_i),
         .rambus_wb_dat_i   (rambus_wb_dat_i),
 

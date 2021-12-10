@@ -42,7 +42,7 @@ export LIBPYTHON_LOC=$(shell cocotb-config --libpython)
 
 .SUFFIXES:
 
-PATTERN = project
+PATTERN = function_generator
 
 all:  coco_test
 

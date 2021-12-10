@@ -13,7 +13,7 @@ interfaces: ['gpio', 'wishbone', 'openram']
 # test within caravel
 caravel_test:
   recipe: "coco_test"
-  directory: "caravel_test"
+  directory: "caravel_function_generator"
   id: 1
   module_name: "wrapped_function_generator"
   instance_name: "wrapped_function_generator"
