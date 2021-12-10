@@ -1,0 +1,14 @@
+[options]
+mode prove
+
+[engines]
+smtbmc
+
+[script]
+read -formal wrapper.v generator.v
+prep -top wrapped_function_generator
+
+[files]
+wrapper.v
+properties.v
+function_generator/src/generator.v
