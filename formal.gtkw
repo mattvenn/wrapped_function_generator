@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
+[*] Mon Dec 13 16:01:03 2021
+[*]
+[dumpfile] "/home/matt/work/asic-workshop/shuttle3-mpw-3/openlane/designs/wrapped_function_generator/properties/engine_0/trace.vcd"
+[dumpfile_mtime] "Mon Dec 13 16:00:17 2021"
+[dumpfile_size] 6443
+[savefile] "/home/matt/work/asic-workshop/shuttle3-mpw-3/openlane/designs/wrapped_function_generator/formal.gtkw"
+[timestart] 0
+[size] 2053 968
+[pos] 612 214
+*-3.000000 10 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] wrapped_function_generator.
+[sst_width] 343
+[signals_width] 530
+[sst_expanded] 1
+[sst_vpaned_height] 283
+@28
+smt_clock
+wrapped_function_generator.active
+wrapped_function_generator.generator.clk
+wrapped_function_generator.generator.ram_state[2:0]
+wrapped_function_generator.generator.dac_state[2:0]
+wrapped_function_generator.generator.reset
+@22
+wrapped_function_generator.generator.ram_end_addr[7:0]
+@23
+wrapped_function_generator.generator.ram_address[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -4,7 +4,7 @@ always @(*) begin
         _wbs_ack_buf_ : assert(wbs_ack_o    == buf_wbs_ack_o);
         _wbs_dat_buf_ : assert(wbs_dat_o    == buf_wbs_dat_o);
     `endif
-    `ifdef USE_OPENRAM
+    `ifdef USE_SHARED_OPENRAM
         _rambus_wb_clk_o_buf_ : assert(rambus_wb_clk_o == buf_rambus_wb_clk_o);
         _rambus_wb_rst_o_buf_ : assert(rambus_wb_rst_o == buf_rambus_wb_rst_o);
         _rambus_wb_stb_o_buf_ : assert(rambus_wb_stb_o == buf_rambus_wb_stb_o);
@@ -30,7 +30,7 @@ always @(*) begin
         _wbs_ack_z_   : assert(wbs_ack_o    == 1'b0);
         _wbs_dat_z_   : assert(wbs_dat_o    == 32'b0);
     `endif
-    `ifdef USE_OPENRAM
+    `ifdef USE_SHARED_OPENRAM
         _rambus_wb_clk_o_z : assert(rambus_wb_clk_o == 1'b0);
         _rambus_wb_rst_o_z : assert(rambus_wb_rst_o == 1'b0);
         _rambus_wb_stb_o_z : assert(rambus_wb_stb_o == 1'b0);

@@ -6,7 +6,7 @@
 `define USE_WB  1
 //`define USE_LA  1
 `define USE_IO  1
-`define USE_OPENRAM 1
+`define USE_SHARED_OPENRAM 1
 //`define USE_IRQ 1
 
 // update this to the name of your module
@@ -30,7 +30,7 @@ module wrapped_function_generator(
 `endif
 
 // shared RAM wishbone controller
-`ifdef USE_OPENRAM
+`ifdef USE_SHARED_OPENRAM
     output wire         rambus_wb_clk_o,            // clock
     output wire         rambus_wb_rst_o,            // reset
     output wire         rambus_wb_stb_o,            // write strobe
@@ -94,7 +94,7 @@ module wrapped_function_generator(
     assign wbs_ack_o    = active ? buf_wbs_ack_o    : 1'b0;
     assign wbs_dat_o    = active ? buf_wbs_dat_o    : 32'b0;
     `endif
-    `ifdef USE_OPENRAM
+    `ifdef USE_SHARED_OPENRAM
     assign rambus_wb_clk_o = active ? buf_rambus_wb_clk_o : 1'b0;
     assign rambus_wb_rst_o = active ? buf_rambus_wb_rst_o : 1'b0;
     assign rambus_wb_stb_o = active ? buf_rambus_wb_stb_o : 1'b0;
@@ -122,7 +122,7 @@ module wrapped_function_generator(
     assign wbs_ack_o    = active ? buf_wbs_ack_o    : 1'bz;
     assign wbs_dat_o    = active ? buf_wbs_dat_o    : 32'bz;
     `endif
-    `ifdef USE_OPENRAM
+    `ifdef USE_SHARED_OPENRAM
     assign rambus_wb_clk_o = active ? buf_rambus_wb_clk_o : 1'bz;
     assign rambus_wb_rst_o = active ? buf_rambus_wb_rst_o : 1'bz;
     assign rambus_wb_stb_o = active ? buf_rambus_wb_stb_o : 1'bz;
