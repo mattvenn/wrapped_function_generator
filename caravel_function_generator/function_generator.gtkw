@@ -1,0 +1,51 @@
+[*]
+[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
+[*] Mon Dec 13 16:24:47 2021
+[*]
+[dumpfile] "/home/matt/work/asic-workshop/shuttle4/caravel_user_project/verilog/dv/caravel_function_generator/function_generator.vcd"
+[dumpfile_mtime] "Mon Dec 13 16:22:20 2021"
+[dumpfile_size] 276403558
+[savefile] "/home/matt/work/asic-workshop/shuttle4/caravel_user_project/verilog/dv/caravel_function_generator/function_generator.gtkw"
+[timestart] 200910000
+[size] 1952 1197
+[pos] -1 -1
+*-21.900000 207575000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] function_generator_tb.
+[treeopen] function_generator_tb.uut.
+[treeopen] function_generator_tb.uut.mprj.
+[treeopen] function_generator_tb.uut.mprj.wrapped_function_generator_1.
+[sst_width] 343
+[signals_width] 495
+[sst_expanded] 1
+[sst_vpaned_height] 440
+@28
+function_generator_tb.RSTB
+function_generator_tb.power1
+function_generator_tb.power2
+function_generator_tb.power3
+function_generator_tb.power4
+function_generator_tb.flash_clk
+function_generator_tb.flash_csb
+function_generator_tb.flash_io0
+function_generator_tb.flash_io1
+function_generator_tb.clk
+@200
+-
+@28
+function_generator_tb.uut.mprj.wrapped_function_generator_1.active
+function_generator_tb.uut.mprj.wrapped_function_generator_1.generator.clk
+function_generator_tb.uut.mprj.wrapped_function_generator_1.generator.reset
+function_generator_tb.uut.mprj.wrapped_function_generator_1.generator.run
+@24
+function_generator_tb.uut.mprj.wrapped_function_generator_1.generator.period[15:0]
+@25
+function_generator_tb.uut.mprj.wrapped_function_generator_1.generator.ram_end_addr[7:0]
+@22
+function_generator_tb.uut.mprj.wrapped_function_generator_1.generator.dac[7:0]
+@28
+function_generator_tb.uut.mprj.wrapped_function_generator_1.generator.dac_state[2:0]
+function_generator_tb.uut.mprj.wrapped_function_generator_1.generator.ram_state[2:0]
+@22
+function_generator_tb.uut.mprj.wrapped_function_generator_1.generator.wait_period[15:0]
+[pattern_trace] 1
+[pattern_trace] 0

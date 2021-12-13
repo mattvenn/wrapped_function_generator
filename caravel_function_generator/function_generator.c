@@ -65,11 +65,14 @@ void main()
     while (reg_mprj_xfer == 1);
 
     // load the function data into sram
+    // FIXME - hangs atm as there is nothing there to ack
+    /*
     uint8_t i = 0;
-    for(i = 0; i < 64; i ++)
+    for(i = 0; i < 15; i ++)
     {
         write_to_ram(i, i + ((i+1) << 8) + ((i+2) << 16) + ((i+3) << 24));
     }
+    */
 
     // activate the project by setting the 1st bit of 1st bank of LA - depends on the project ID
     reg_la0_iena = 0; // input enable off
