@@ -2,6 +2,13 @@ import cocotb
 from cocotb.clock import Clock
 from cocotb.triggers import RisingEdge, FallingEdge, ClockCycles, with_timeout
 
+
+async def until_signal_has_value(clk, sig, value):
+    while True:
+        await RisingEdge(clk)
+        if sig.value == value:
+            return
+
 @cocotb.test()
 async def test_start(dut):
     clock = Clock(dut.clk, 25, units="ns") # 40M
@@ -28,9 +35,15 @@ async def test_start(dut):
     # wait with a timeout for the project to become active
     await with_timeout(RisingEdge(dut.uut.mprj.wrapped_function_generator_1.active), 500, 'us')
 
-    # wait
-    await ClockCycles(dut.clk, 6000)
+    # wait for DAC to be all 0
+    await until_signal_has_value(dut.clk, dut.dac, 0)
 
-    # assert something
-    assert(0 == 25)
+    # firmware sets up these:
+    period = 10
+    max_addr = 15
+    for i in range(period * max_addr * 2):
+        await ClockCycles(dut.clk, period)
+
+        # ensure value from DAC is correct
+        assert dut.dac == (i % max_addr * 4)
 

@@ -37,8 +37,7 @@ module function_generator_tb;
     wire [37:0] mprj_io;
 
     ///// convenience signals that match what the cocotb test modules are looking for
-
-
+    wire [7:0] dac = mprj_io[15:8];
     /////
 
 

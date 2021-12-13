@@ -82,6 +82,8 @@ void main()
     // allow Caravel to write to the shared RAM
     reg_la0_data |= (1 << SRAM_WRITE_PORT);
 
-    // configure function generator: 10 clock cycles per sample, 64 * 4 samples, start run
-    config_generator(10, 64, 1);
+    // configure function generator: 10 clock cycles per sample, 15 * 4 samples, start run
+    // period = 10
+    // max addr = 15
+    config_generator(10, 15, 1);
 }
