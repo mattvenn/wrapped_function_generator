@@ -64,26 +64,24 @@ void main()
     reg_mprj_xfer = 1;
     while (reg_mprj_xfer == 1);
 
-    // load the function data into sram
-    // FIXME - hangs atm as there is nothing there to ack
-    /*
-    uint8_t i = 0;
-    for(i = 0; i < 15; i ++)
-    {
-        write_to_ram(i, i + ((i+1) << 8) + ((i+2) << 16) + ((i+3) << 24));
-    }
-    */
-
-    // activate the project by setting the 1st bit of 1st bank of LA - depends on the project ID
     reg_la0_iena = 0; // input enable off
     reg_la0_oenb = 0; // output enable on
-    reg_la0_data = (1 << 1);
 
     // allow Caravel to write to the shared RAM
-    reg_la0_data |= (1 << SRAM_WRITE_PORT);
+//    reg_la0_data |= (1 << SRAM_WRITE_PORT); 
+    reg_la0_data &= ~(1 << SRAM_WRITE_PORT); 
 
-    // configure function generator: 10 clock cycles per sample, 15 * 4 samples, start run
-    // period = 10
-    // max addr = 15
-    config_generator(10, 15, 1);
+    // load the function data into sram
+    // FIXME - hangs atm as there is nothing there to ack
+    uint8_t i = 0;
+    for(i = 0; i < 4; i ++)
+    {
+        write_to_ram(i, 4*i + ((4*i+1) << 8) + ((4*i+2) << 16) + ((4*i+3) << 24));
+    }
+    
+    // activate the project by setting the 1st bit of 1st bank of LA - depends on the project ID
+    reg_la0_data |= (1 << 1);
+
+    // configure function generator: 10 clock cycles per sample, 64 * 4 samples, start run
+    config_generator(10, 4, 1);
 }
