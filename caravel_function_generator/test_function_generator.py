@@ -35,15 +35,21 @@ async def test_start(dut):
     # wait with a timeout for the project to become active
     await with_timeout(RisingEdge(dut.uut.mprj.wrapped_function_generator_1.active), 500, 'us')
 
-    # wait for DAC to be all 0
+    # sync with DAC - wait for it to be 1
+    await until_signal_has_value(dut.clk, dut.dac, 1)
+
+    # wait for it to be 0
     await until_signal_has_value(dut.clk, dut.dac, 0)
 
     # firmware sets up these:
     period = 10
-    max_addr = 15
+    max_addr = 4
     for i in range(period * max_addr * 2):
-        await ClockCycles(dut.clk, period)
 
         # ensure value from DAC is correct
-        assert dut.dac == (i % max_addr * 4)
+        assert dut.dac == (i % (max_addr * 4))
+
+        # wait period
+        await ClockCycles(dut.clk, period)
+
 
