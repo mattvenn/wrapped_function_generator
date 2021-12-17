@@ -17,6 +17,8 @@
 
 #include "verilog/dv/caravel/defs.h"
 
+#define PROJECT_ID 1
+
 #define REG_CONFIG          (*(volatile uint32_t*)0x30000000)
 #define SRAM_BASE_ADDR      0x30FFFC00
 #define OPENRAM(addr)       (*(uint32_t*)(SRAM_BASE_ADDR + (addr & 0x3fc)))
@@ -30,6 +32,11 @@ void config_generator(uint16_t period, uint8_t end_addr, bool run)
 void write_to_ram(uint8_t addr, uint32_t data)
 {
     OPENRAM(addr << 2) = data;
+}
+
+uint32_t read_from_ram(uint8_t addr)
+{
+    return OPENRAM(addr << 2);
 }
 
 void main()
@@ -68,19 +75,20 @@ void main()
     reg_la0_oenb = 0; // output enable on
 
     // allow Caravel to write to the shared RAM
-//    reg_la0_data |= (1 << SRAM_WRITE_PORT); 
     reg_la0_data &= ~(1 << SRAM_WRITE_PORT); 
 
     // load the function data into sram
-    // FIXME - hangs atm as there is nothing there to ack
     uint8_t i = 0;
     for(i = 0; i < 4; i ++)
     {
         write_to_ram(i, 4*i + ((4*i+1) << 8) + ((4*i+2) << 16) + ((4*i+3) << 24));
     }
+
+    // read 1 address back just to check
+    read_from_ram(0);
     
     // activate the project by setting the 1st bit of 1st bank of LA - depends on the project ID
-    reg_la0_data |= (1 << 1);
+    reg_la0_data |= (1 << PROJECT_ID);
 
     // configure function generator: 10 clock cycles per sample, 64 * 4 samples, start run
     config_generator(10, 4, 1);
