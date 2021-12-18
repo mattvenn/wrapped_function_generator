@@ -38,6 +38,12 @@ module function_generator_tb;
 
     ///// convenience signals that match what the cocotb test modules are looking for
     wire [7:0] dac = mprj_io[15:8];
+    wire dbg_ram_addr_zero  = mprj_io[16];
+    wire dbg_state_run      = mprj_io[17];
+    wire dbg_dac_start      = mprj_io[18];
+    wire dbg_ram_wb_stb     = mprj_io[19];
+    wire dbg_caravel_wb_stb = mprj_io[20];
+    wire dbg_active         = mprj_io[21];
     /////
 
 

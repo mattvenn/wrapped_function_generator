@@ -33,13 +33,11 @@ async def test_start(dut):
     dut.RSTB <= 1
 
     # wait with a timeout for the project to become active
-    await with_timeout(RisingEdge(dut.uut.mprj.wrapped_function_generator_1.active), 500, 'us')
+    await with_timeout(RisingEdge(dut.dbg_active), 500, 'us')
 
-    # sync with DAC - wait for it to be 1
-    await until_signal_has_value(dut.clk, dut.dac, 1)
-
-    # wait for it to be 0
-    await until_signal_has_value(dut.clk, dut.dac, 0)
+    # sync with start of DAC
+    await RisingEdge(dut.dbg_dac_start)  
+    await FallingEdge(dut.dbg_dac_start)
 
     # firmware sets up these:
     period = 10

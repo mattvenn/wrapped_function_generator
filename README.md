@@ -1,16 +1,29 @@
-# Information about your project
+# Function generator
 
-This is a template project you can clone and use to take part in the multi project submission to the
-Google/Efabless/Skywater shuttle.
+Example project that uses the shared RAM as data for an arbitrary function generator.
+The output is an 8bit port to a DAC.
 
-The tools that will test and create the aggregated design are here: https://github.com/mattvenn/multi_project_tools
+Run make to run the unit tests.
 
-# Project info.yaml
+Run make show_generator to see the waveform.
 
-You need to fill in the fields of [info.yaml](info.yaml)
+## Caravel Bus interface
 
-See [here for more information](https://github.com/mattvenn/multi_project_tools/blob/main/docs/project_spec.md)
+Responds to reads and writes at the given BASE_ADDRESS (defaults to 0x3000_000)
 
-# License
+    DATA PARTITION  NAME            DESCRIPTION
+    15:0            period          clock cycles between putting next data on the output
+    23:16           ram_end_addr    where to start reading the data in the shared RAM
+    24              run             if high, set the design running
 
-This project is [licensed under Apache 2](LICENSE)
+## RAMBus interface
+
+* At init, read the first word from RAM.
+* Starts reading a 32 bit word at address 0 from the shared RAM.
+* Every period cycles, update the DAC output.
+* After the last 8 bit word is put on the DAC output, start a new wishbone request for the next 32 bits of data.
+
+# Dependencies
+
+* cocotb
+* cocotb bus extension for wishbone

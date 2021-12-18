@@ -150,38 +150,50 @@ module wrapped_function_generator(
     // local signal for rambus address
     wire [7:0] rambus_wb_adr;
 
+    // RAMBus is 10 bit and word aligned
+    assign buf_rambus_wb_adr_o = {rambus_wb_adr, 2'b00};
+
+    // debug active signal
+    assign buf_io_out[21] = active;
+
     // Instantiate your module here, 
     // connecting what you need of the above signals. 
     // Use the buffered outputs for your module's outputs.
     generator #(.BASE_ADDRESS(32'h3000_0000)) generator ( 
         // CaravelBus peripheral ports
-        .caravel_wb_clk_i  (wb_clk_i ),
-        .caravel_wb_rst_i  (wb_rst_i | !active),
-        .caravel_wb_stb_i  (wbs_stb_i),
-        .caravel_wb_cyc_i  (wbs_cyc_i),
-        .caravel_wb_we_i   (wbs_we_i ),
-        .caravel_wb_sel_i  (wbs_sel_i),
-        .caravel_wb_dat_i  (wbs_dat_i),
-        .caravel_wb_adr_i  (wbs_adr_i),
-        .caravel_wb_ack_o  (buf_wbs_ack_o),
-        .caravel_wb_dat_o  (buf_wbs_dat_o),
+        .caravel_wb_clk_i   (wb_clk_i ),
+        .caravel_wb_rst_i   (wb_rst_i | !active),
+        .caravel_wb_stb_i   (wbs_stb_i),
+        .caravel_wb_cyc_i   (wbs_cyc_i),
+        .caravel_wb_we_i    (wbs_we_i ),
+        .caravel_wb_sel_i   (wbs_sel_i),
+        .caravel_wb_dat_i   (wbs_dat_i),
+        .caravel_wb_adr_i   (wbs_adr_i),
+        .caravel_wb_ack_o   (buf_wbs_ack_o),
+        .caravel_wb_dat_o   (buf_wbs_dat_o),
 
         // RAMBus ports
-        .rambus_wb_clk_o   (buf_rambus_wb_clk_o),
-        .rambus_wb_rst_o   (buf_rambus_wb_rst_o),
-        .rambus_wb_stb_o   (buf_rambus_wb_stb_o),
-        .rambus_wb_cyc_o   (buf_rambus_wb_cyc_o),
-        .rambus_wb_we_o    (buf_rambus_wb_we_o),
-        .rambus_wb_sel_o   (buf_rambus_wb_sel_o),
-        .rambus_wb_dat_o   (buf_rambus_wb_dat_o),
-        .rambus_wb_adr_o   (rambus_wb_adr),
-        .rambus_wb_ack_i   (rambus_wb_ack_i),
-        .rambus_wb_dat_i   (rambus_wb_dat_i),
+        .rambus_wb_clk_o    (buf_rambus_wb_clk_o),
+        .rambus_wb_rst_o    (buf_rambus_wb_rst_o),
+        .rambus_wb_stb_o    (buf_rambus_wb_stb_o),
+        .rambus_wb_cyc_o    (buf_rambus_wb_cyc_o),
+        .rambus_wb_we_o     (buf_rambus_wb_we_o),
+        .rambus_wb_sel_o    (buf_rambus_wb_sel_o),
+        .rambus_wb_dat_o    (buf_rambus_wb_dat_o),
+        .rambus_wb_adr_o    (rambus_wb_adr),
+        .rambus_wb_ack_i    (rambus_wb_ack_i),
+        .rambus_wb_dat_i    (rambus_wb_dat_i),
 
-        .dac               (buf_io_out[15:8])
+        // DAC
+        .dac                (buf_io_out[15:8]),
+
+        // debug
+        .dbg_ram_addr_zero  (buf_io_out[16]),
+        .dbg_state_run      (buf_io_out[17]),
+        .dbg_dac_start      (buf_io_out[18]),
+        .dbg_ram_wb_stb     (buf_io_out[19]),
+        .dbg_caravel_wb_stb (buf_io_out[20])
     );
-
-    assign buf_rambus_wb_adr_o = {rambus_wb_adr, 2'b00};
 
 endmodule 
 `default_nettype wire
