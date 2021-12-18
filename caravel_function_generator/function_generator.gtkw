@@ -1,15 +1,15 @@
 [*]
-[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
-[*] Fri Dec 17 14:51:36 2021
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat Dec 18 16:18:02 2021
 [*]
 [dumpfile] "/home/matt/work/asic-workshop/shuttle4/caravel_user_project/verilog/dv/caravel_function_generator/function_generator.vcd"
-[dumpfile_mtime] "Fri Dec 17 14:44:24 2021"
-[dumpfile_size] 430369013
+[dumpfile_mtime] "Sat Dec 18 16:15:41 2021"
+[dumpfile_size] 461618602
 [savefile] "/home/matt/work/asic-workshop/shuttle4/caravel_user_project/verilog/dv/caravel_function_generator/function_generator.gtkw"
-[timestart] 472793000
-[size] 1663 1355
+[timestart] 477730000
+[size] 1848 1016
 [pos] 1932 147
-*-20.699999 474525000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-23.699999 512700000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] function_generator_tb.
 [treeopen] function_generator_tb.uut.
 [treeopen] function_generator_tb.uut.mprj.
@@ -76,7 +76,7 @@ function_generator_tb.uut.mprj.wb_bridge.wbm_a_we_o
 function_generator_tb.uut.mprj.wb_bridge.wbm_a_ack_i
 @1401200
 -wbm a
-@c00201
+@c00200
 -wbm b
 @28
 function_generator_tb.uut.mprj.wb_bridge.wbm_b_cyc_o
@@ -89,7 +89,7 @@ function_generator_tb.uut.mprj.wb_bridge.wbm_b_sel_o[3:0]
 @28
 function_generator_tb.uut.mprj.wb_bridge.wbm_b_we_o
 function_generator_tb.uut.mprj.wb_bridge.wbm_b_ack_i
-@1401201
+@1401200
 -wbm b
 @800200
 -rambus
@@ -110,5 +110,16 @@ function_generator_tb.uut.mprj.wrapped_function_generator_1.rambus_wb_sel_o[3:0]
 function_generator_tb.uut.mprj.wrapped_function_generator_1.rambus_wb_we_o
 @1000200
 -rambus
+@800201
+-debug
+@29
+function_generator_tb.dbg_active
+function_generator_tb.dbg_caravel_wb_stb
+function_generator_tb.dbg_dac_start
+function_generator_tb.dbg_ram_addr_zero
+function_generator_tb.dbg_ram_wb_stb
+function_generator_tb.dbg_state_run
+@1000201
+-debug
 [pattern_trace] 1
 [pattern_trace] 0
