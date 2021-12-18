@@ -3,7 +3,7 @@
 project: 
   title: "Function generator"
   description: "arbitary function generator, using shared RAM as the output data"
-  picture: docs/empty.png
+  picture: docs/function_generator.png
   author: "Matt Venn"
   license: LICENSE
 
