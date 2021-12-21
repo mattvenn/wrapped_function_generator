@@ -15,7 +15,7 @@ caravel_test:
   recipe: "coco_test"
   gl_recipe: "coco_test_gl"
   directory: "caravel_function_generator"
-  id: 1
+  id: 0
   module_name: "wrapped_function_generator"
   instance_name: "wrapped_function_generator"
 

@@ -17,7 +17,7 @@
 
 #include "verilog/dv/caravel/defs.h"
 
-#define PROJECT_ID 1
+#define PROJECT_ID 0
 
 #define REG_CONFIG          (*(volatile uint32_t*)0x30000000)
 #define SRAM_BASE_ADDR      0x30FFFC00
