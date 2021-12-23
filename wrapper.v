@@ -99,8 +99,8 @@ module wrapped_function_generator(
     assign rambus_wb_rst_o = active ? buf_rambus_wb_rst_o : 1'b0;
     assign rambus_wb_stb_o = active ? buf_rambus_wb_stb_o : 1'b0;
     assign rambus_wb_cyc_o = active ? buf_rambus_wb_cyc_o : 1'b0;
-    assign rambus_wb_we_o  = active ? buf_rambus_wb_we_o  : 4'b0;
-    assign rambus_wb_sel_o = active ? buf_rambus_wb_sel_o : 1'b0;
+    assign rambus_wb_we_o  = active ? buf_rambus_wb_we_o  : 1'b0;
+    assign rambus_wb_sel_o = active ? buf_rambus_wb_sel_o : 4'b0;
     assign rambus_wb_dat_o = active ? buf_rambus_wb_dat_o : 32'b0;
     assign rambus_wb_adr_o = active ? buf_rambus_wb_adr_o : 10'b0;
     `endif
@@ -127,8 +127,8 @@ module wrapped_function_generator(
     assign rambus_wb_rst_o = active ? buf_rambus_wb_rst_o : 1'bz;
     assign rambus_wb_stb_o = active ? buf_rambus_wb_stb_o : 1'bz;
     assign rambus_wb_cyc_o = active ? buf_rambus_wb_cyc_o : 1'bz;
-    assign rambus_wb_we_o  = active ? buf_rambus_wb_we_o  : 4'bz;
-    assign rambus_wb_sel_o = active ? buf_rambus_wb_sel_o : 1'bz;
+    assign rambus_wb_we_o  = active ? buf_rambus_wb_we_o  : 1'bz;
+    assign rambus_wb_sel_o = active ? buf_rambus_wb_sel_o : 4'bz;
     assign rambus_wb_dat_o = active ? buf_rambus_wb_dat_o : 32'bz;
     assign rambus_wb_adr_o = active ? buf_rambus_wb_adr_o : 10'bz;
     `endif

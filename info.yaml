@@ -17,7 +17,6 @@ caravel_test:
   directory: "caravel_function_generator"
   id: 0
   module_name: "wrapped_function_generator"
-  instance_name: "wrapped_function_generator"
 
 # module test
 module_test:

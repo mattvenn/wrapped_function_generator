@@ -2469,9 +2469,9 @@ MACRO wrapped_function_generator
   END wbs_we_i
   OBS
       LAYER li1 ;
-        RECT 5.520 7.225 219.735 217.855 ;
+        RECT 5.520 7.225 218.815 217.855 ;
       LAYER met1 ;
-        RECT 0.070 5.480 219.795 217.900 ;
+        RECT 0.070 6.840 218.875 217.900 ;
       LAYER met2 ;
         RECT 0.100 215.720 0.730 218.125 ;
         RECT 1.570 215.720 2.570 218.125 ;
@@ -2817,8 +2817,8 @@ MACRO wrapped_function_generator
         RECT 4.000 1.040 216.000 2.360 ;
         RECT 4.000 0.175 215.600 1.040 ;
       LAYER met4 ;
-        RECT 96.895 31.455 97.440 91.625 ;
-        RECT 99.840 31.455 103.665 91.625 ;
+        RECT 96.895 56.615 97.440 101.825 ;
+        RECT 99.840 56.615 101.825 101.825 ;
   END
 END wrapped_function_generator
 END LIBRARY
