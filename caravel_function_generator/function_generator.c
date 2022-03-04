@@ -15,7 +15,11 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#include "verilog/dv/caravel/defs.h"
+//#include "verilog/dv/caravel/defs.h"
+
+#include <defs.h>
+#include <stub.c>
+
 
 #define PROJECT_ID 0
 
@@ -79,8 +83,11 @@ void main()
     reg_mprj_xfer = 1;
     while (reg_mprj_xfer == 1);
 
-    reg_la0_iena = 0; // input enable off
-    reg_la0_oenb = 0; // output enable on
+    reg_la0_iena = 0xFFFFFFFF; // input enable off
+    reg_la0_oenb = 0xFFFFFFFF; // output enable on
+
+    // enable wishbone
+    reg_wb_enable  = 1;
 
     // allow Caravel to write to the shared RAM
     reg_la0_data &= ~(1 << SRAM_WRITE_PORT); 
@@ -94,7 +101,7 @@ void main()
 
     // read 1 address back just to check
     read_from_ram(0);
-    
+
     // activate the project by setting the 1st bit of 1st bank of LA - depends on the project ID
     reg_la0_data |= (1 << PROJECT_ID);
 

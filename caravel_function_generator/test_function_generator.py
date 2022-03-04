@@ -33,7 +33,7 @@ async def test_start(dut):
     dut.RSTB <= 1
 
     # wait with a timeout for the project to become active
-    await with_timeout(RisingEdge(dut.dbg_active), 500, 'us')
+    await with_timeout(RisingEdge(dut.dbg_active), 2000, 'us')
 
     # sync with start of DAC
     await RisingEdge(dut.dbg_dac_start)  
