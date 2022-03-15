@@ -39,8 +39,8 @@ source:
     - function_generator/src/generator.v
 
 # gds - check nothing on metal 5, DRC & LVS
-gds:
-  directory: "gds"
-  gds_filename: "wrapped_function_generator.gds"
-  lvs_filename: "wrapped_function_generator.lvs.powered.v"
-  lef_filename: "wrapped_function_generator.lef"
+final:
+  directory: "final"
+  gds_filename: "gds/wrapped_function_generator.gds"
+  lvs_filename: "verilog/gl/wrapped_function_generator.v"
+  lef_filename: "lef/wrapped_function_generator.lef"
