@@ -23,10 +23,12 @@
 
 #define PROJECT_ID 0
 
-#define REG_CONFIG          (*(volatile uint32_t*)0x30000000)
-#define SRAM_BASE_ADDR      0x30FFFC00
-#define OPENRAM(addr)       (*(uint32_t*)(SRAM_BASE_ADDR + (addr & 0x3fc)))
-#define SRAM_WRITE_PORT 31  // last bit of the 1st bank logic analyser. If set high, Caravel can write to shared RAM
+#define REG_CONFIG          		(*(volatile uint32_t*)0x30000000)
+#define SRAM_LATENCY_CSR_BASE_ADDR	0x300FF800
+#define SRAM_BASE_ADDR      		0x300FFC00
+#define OPENRAM(addr)       		(*(volatile uint32_t*)(SRAM_BASE_ADDR + (addr & 0x3fc)))
+#define OPENRAM_LATENCY			(*(volatile uint32_t*)(SRAM_LATENCY_CSR_BASE_ADDR))
+#define SRAM_WRITE_PORT 		31  // last bit of the 1st bank logic analyser. If set to 0, Caravel can write to shared RAM
 
 void config_generator(uint16_t period, uint8_t end_addr, bool run)
 {
@@ -41,6 +43,19 @@ void write_to_ram(uint8_t addr, uint32_t data)
 uint32_t read_from_ram(uint8_t addr)
 {
     return OPENRAM(addr << 2);
+}
+
+void set_ram_latencies(uint8_t mgmt_pre, uint8_t mgmt_read, uint8_t uprj_pre, uint8_t uprj_read)
+{
+    OPENRAM_LATENCY = 	(mgmt_pre << 24) 
+	    		| (mgmt_read << 16) 
+			| (uprj_pre << 8) 
+			| uprj_read;   
+}
+
+uint32_t read_ram_latencies()
+{
+    return OPENRAM_LATENCY;
 }
 
 void main()
@@ -91,6 +106,9 @@ void main()
 
     // allow Caravel to write to the shared RAM
     reg_la0_data &= ~(1 << SRAM_WRITE_PORT); 
+
+    // configure latencies to 3,3,3,3
+    set_ram_latencies(3,3,3,3);
 
     // load the function data into sram
     uint8_t i = 0;
