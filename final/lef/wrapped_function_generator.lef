@@ -2471,7 +2471,7 @@ MACRO wrapped_function_generator
       LAYER li1 ;
         RECT 5.520 10.795 244.260 247.605 ;
       LAYER met1 ;
-        RECT 0.070 9.560 248.330 247.760 ;
+        RECT 0.070 6.160 248.330 248.840 ;
       LAYER met2 ;
         RECT 0.650 255.720 3.030 258.925 ;
         RECT 3.870 255.720 6.250 258.925 ;
@@ -2781,8 +2781,7 @@ MACRO wrapped_function_generator
         RECT 4.000 1.040 246.000 3.040 ;
         RECT 4.000 0.175 245.600 1.040 ;
       LAYER met4 ;
-        RECT 96.895 11.735 97.440 193.625 ;
-        RECT 99.840 11.735 121.145 193.625 ;
+        RECT 100.575 11.735 141.385 165.065 ;
   END
 END wrapped_function_generator
 END LIBRARY

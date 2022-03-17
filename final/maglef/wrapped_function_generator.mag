@@ -1,11 +1,11 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1647555619
+timestamp 1647557553
 << obsli1 >>
 rect 1104 2159 48852 49521
 << obsm1 >>
-rect 14 1912 49666 49552
+rect 14 1232 49666 49768
 << metal2 >>
 rect 18 51200 74 52000
 rect 662 51200 718 52000
@@ -626,8 +626,7 @@ rect 4208 2128 4528 49552
 rect 19568 2128 19888 49552
 rect 34928 2128 35248 49552
 << obsm4 >>
-rect 19379 2347 19488 38725
-rect 19968 2347 24229 38725
+rect 20115 2347 28277 33013
 << labels >>
 rlabel metal3 s 49200 31968 50000 32088 6 active
 port 1 nsew signal input
@@ -1249,8 +1248,8 @@ port 307 nsew signal input
 string FIXED_BBOX 0 0 50000 52000
 string LEFclass BLOCK
 string LEFview TRUE
-string GDS_END 3624920
-string GDS_FILE /openlane/designs/wrapped_function_generator/runs/RUN_2022.03.17_22.15.55/results/finishing/wrapped_function_generator.magic.gds
-string GDS_START 455176
+string GDS_END 3614234
+string GDS_FILE /openlane/designs/wrapped_function_generator/runs/RUN_2022.03.17_22.49.13/results/finishing/wrapped_function_generator.magic.gds
+string GDS_START 432002
 << end >>
 
