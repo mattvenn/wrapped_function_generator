@@ -1,27 +1,28 @@
 [*]
 [*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
-[*] Thu Mar  3 15:25:15 2022
+[*] Fri Mar 18 13:55:38 2022
 [*]
-[dumpfile] "/home/matt/work/asic-workshop/shuttle5/caravel_example/verilog/dv/caravel_function_generator/function_generator.vcd"
-[dumpfile_mtime] "Thu Mar  3 15:02:27 2022"
-[dumpfile_size] 1119155
-[savefile] "/home/matt/work/asic-workshop/shuttle5/caravel_example/verilog/dv/caravel_function_generator/function_generator.gtkw"
-[timestart] 0
-[size] 2108 1352
-[pos] -1 -1
-*-28.799997 1854575000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[dumpfile] "/home/matt/work/asic-workshop/shuttle5/zero_to_asic_mpw5/verilog/dv/caravel_function_generator/function_generator.vcd"
+[dumpfile_mtime] "Fri Mar 18 13:54:48 2022"
+[dumpfile_size] 330
+[savefile] "/home/matt/work/asic-workshop/shuttle5/zero_to_asic_mpw5/verilog/dv/caravel_function_generator/function_generator.gtkw"
+[timestart] 1999370000
+[size] 2488 1519
+[pos] 25 22
+*-21.599998 2002475000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] function_generator_tb.
 [treeopen] function_generator_tb.uut.
 [treeopen] function_generator_tb.uut.mprj.
 [treeopen] function_generator_tb.uut.mprj.wb_openram_wrapper.
+[treeopen] function_generator_tb.uut.mprj.wrapped_function_generator_0.
 [treeopen] function_generator_tb.uut.soc.
 [treeopen] function_generator_tb.uut.soc.core.
 [treeopen] function_generator_tb.uut.soc.core.VexRiscv.
 [sst_width] 383
-[signals_width] 570
+[signals_width] 644
 [sst_expanded] 1
-[sst_vpaned_height] 667
-@800200
+[sst_vpaned_height] 646
+@c00200
 -caravel basics
 @28
 function_generator_tb.RSTB
@@ -33,33 +34,113 @@ function_generator_tb.flash_clk
 function_generator_tb.flash_csb
 function_generator_tb.flash_io0
 function_generator_tb.flash_io1
-@1000200
+@1401200
 -caravel basics
 @200
 -
-@c00200
--function generator
-@20000
--
-@1401200
+@800200
 -function generator
 @28
 function_generator_tb.uut.mprj.wrapped_function_generator_0.active
 @8022
 function_generator_tb.dac[7:0]
-@200
--
+@22
+function_generator_tb.uut.mprj.wrapped_function_generator_0.generator.dac_data[31:0]
+function_generator_tb.uut.mprj.wrapped_function_generator_0.generator.dac_data_buf[31:0]
+@28
+function_generator_tb.uut.mprj.wrapped_function_generator_0.generator.run
+@29
+function_generator_tb.uut.mprj.wrapped_function_generator_0.generator.fetch_next
+@2024
+^1 /home/matt/work/asic-workshop/shuttle5/zero_to_asic_mpw5/verilog/dv/caravel_function_generator/dac_state.txt
+function_generator_tb.uut.mprj.wrapped_function_generator_0.generator.dac_state[2:0]
+^1 /home/matt/work/asic-workshop/shuttle5/zero_to_asic_mpw5/verilog/dv/caravel_function_generator/dac_state.txt
+function_generator_tb.uut.mprj.wrapped_function_generator_0.generator.ram_state[2:0]
 @28
 function_generator_tb.clk
+@24
+function_generator_tb.uut.mprj.wrapped_function_generator_0.generator.period[15:0]
+@8022
+function_generator_tb.uut.mprj.wrapped_function_generator_0.generator.wait_period[15:0]
+@20000
+-
+@1000200
+-function generator
+@200
+-
 @c00200
 -wbm a
+@28
+function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_ack_i
+@22
+function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_adr_o[31:0]
+@28
+function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_cyc_o
+@22
+function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_i[31:0]
+@c00022
+function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+@28
+(0)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(1)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(2)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(3)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(4)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(5)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(6)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(7)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(8)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(9)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(10)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(11)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(12)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(13)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(14)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(15)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(16)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(17)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(18)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(19)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(20)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(21)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(22)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(23)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(24)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(25)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(26)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(27)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(28)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(29)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(30)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+(31)function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_dat_o[31:0]
+@1401200
+-group_end
+@22
+function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_sel_o[3:0]
+@28
+function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_stb_o
+function_generator_tb.uut.mprj.wb_bridge_2way.wbm_a_we_o
 @1401200
 -wbm a
 @c00200
 -wbm b
+@28
+function_generator_tb.uut.mprj.wb_bridge_2way.wbm_b_ack_i
+@22
+function_generator_tb.uut.mprj.wb_bridge_2way.wbm_b_adr_o[10:0]
+@28
+function_generator_tb.uut.mprj.wb_bridge_2way.wbm_b_cyc_o
+@22
+function_generator_tb.uut.mprj.wb_bridge_2way.wbm_b_dat_i[31:0]
+function_generator_tb.uut.mprj.wb_bridge_2way.wbm_b_dat_o[31:0]
+function_generator_tb.uut.mprj.wb_bridge_2way.wbm_b_sel_o[3:0]
+@28
+function_generator_tb.uut.mprj.wb_bridge_2way.wbm_b_stb_o
+function_generator_tb.uut.mprj.wb_bridge_2way.wbm_b_we_o
+function_generator_tb.uut.mprj.wb_bridge_2way.wbs_ack_o
 @1401200
 -wbm b
-@c00201
+@800200
 -rambus
 @22
 function_generator_tb.uut.mprj.wrapped_function_generator_0.rambus_wb_adr[7:0]
@@ -78,7 +159,7 @@ function_generator_tb.uut.mprj.wrapped_function_generator_0.rambus_wb_sel_o[3:0]
 @28
 function_generator_tb.uut.mprj.wrapped_function_generator_0.rambus_wb_stb_o
 function_generator_tb.uut.mprj.wrapped_function_generator_0.rambus_wb_we_o
-@1401201
+@1000200
 -rambus
 @c00200
 -debug
@@ -92,6 +173,7 @@ function_generator_tb.dbg_state_run
 @1401200
 -debug
 @28
+function_generator_tb.dbg_dac_start
 function_generator_tb.uut.soc.core.VexRiscv.dBusWishbone_CYC
 function_generator_tb.uut.soc.mprj_cyc_o
 function_generator_tb.uut.soc.core.mprj_cyc_o

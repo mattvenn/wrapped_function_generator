@@ -42,6 +42,8 @@ async def test_start(dut):
     # firmware sets up these:
     period = 10
     max_addr = 4
+    # wait for data to start
+    await ClockCycles(dut.clk, period * 3)
     for i in range(period * max_addr * 2):
 
         # ensure value from DAC is correct
