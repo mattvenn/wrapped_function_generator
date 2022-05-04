@@ -8494,95 +8494,95 @@ io_in[6] I
 io_in[7] I
 io_in[8] I
 io_in[9] I
-io_oeb[0] O
-io_oeb[10] O
-io_oeb[11] O
-io_oeb[12] O
-io_oeb[13] O
-io_oeb[14] O
-io_oeb[15] O
-io_oeb[16] O
-io_oeb[17] O
-io_oeb[18] O
-io_oeb[19] O
-io_oeb[1] O
-io_oeb[20] O
-io_oeb[21] O
-io_oeb[22] O
-io_oeb[23] O
-io_oeb[24] O
-io_oeb[25] O
-io_oeb[26] O
-io_oeb[27] O
-io_oeb[28] O
-io_oeb[29] O
-io_oeb[2] O
-io_oeb[30] O
-io_oeb[31] O
-io_oeb[32] O
-io_oeb[33] O
-io_oeb[34] O
-io_oeb[35] O
-io_oeb[36] O
-io_oeb[37] O
-io_oeb[3] O
-io_oeb[4] O
-io_oeb[5] O
-io_oeb[6] O
-io_oeb[7] O
-io_oeb[8] O
-io_oeb[9] O
-io_out[0] O
-io_out[10] O
-io_out[11] O
-io_out[12] O
-io_out[13] O
-io_out[14] O
-io_out[15] O
-io_out[16] O
-io_out[17] O
-io_out[18] O
-io_out[19] O
-io_out[1] O
-io_out[20] O
-io_out[21] O
-io_out[22] O
-io_out[23] O
-io_out[24] O
-io_out[25] O
-io_out[26] O
-io_out[27] O
-io_out[28] O
-io_out[29] O
-io_out[2] O
-io_out[30] O
-io_out[31] O
-io_out[32] O
-io_out[33] O
-io_out[34] O
-io_out[35] O
-io_out[36] O
-io_out[37] O
-io_out[3] O
-io_out[4] O
-io_out[5] O
-io_out[6] O
-io_out[7] O
-io_out[8] O
-io_out[9] O
+io_oeb[0] I
+io_oeb[10] I
+io_oeb[11] I
+io_oeb[12] I
+io_oeb[13] I
+io_oeb[14] I
+io_oeb[15] I
+io_oeb[16] I
+io_oeb[17] I
+io_oeb[18] I
+io_oeb[19] I
+io_oeb[1] I
+io_oeb[20] I
+io_oeb[21] I
+io_oeb[22] I
+io_oeb[23] I
+io_oeb[24] I
+io_oeb[25] I
+io_oeb[26] I
+io_oeb[27] I
+io_oeb[28] I
+io_oeb[29] I
+io_oeb[2] I
+io_oeb[30] I
+io_oeb[31] I
+io_oeb[32] I
+io_oeb[33] I
+io_oeb[34] I
+io_oeb[35] I
+io_oeb[36] I
+io_oeb[37] I
+io_oeb[3] I
+io_oeb[4] I
+io_oeb[5] I
+io_oeb[6] I
+io_oeb[7] I
+io_oeb[8] I
+io_oeb[9] I
+io_out[0] I
+io_out[10] I
+io_out[11] I
+io_out[12] I
+io_out[13] I
+io_out[14] I
+io_out[15] I
+io_out[16] I
+io_out[17] I
+io_out[18] I
+io_out[19] I
+io_out[1] I
+io_out[20] I
+io_out[21] I
+io_out[22] I
+io_out[23] I
+io_out[24] I
+io_out[25] I
+io_out[26] I
+io_out[27] I
+io_out[28] I
+io_out[29] I
+io_out[2] I
+io_out[30] I
+io_out[31] I
+io_out[32] I
+io_out[33] I
+io_out[34] I
+io_out[35] I
+io_out[36] I
+io_out[37] I
+io_out[3] I
+io_out[4] I
+io_out[5] I
+io_out[6] I
+io_out[7] I
+io_out[8] I
+io_out[9] I
 rambus_wb_ack_i I
-rambus_wb_adr_o[0] O
-rambus_wb_adr_o[1] O
-rambus_wb_adr_o[2] O
-rambus_wb_adr_o[3] O
-rambus_wb_adr_o[4] O
-rambus_wb_adr_o[5] O
-rambus_wb_adr_o[6] O
-rambus_wb_adr_o[7] O
-rambus_wb_adr_o[8] O
-rambus_wb_adr_o[9] O
-rambus_wb_clk_o O
-rambus_wb_cyc_o O
+rambus_wb_adr_o[0] I
+rambus_wb_adr_o[1] I
+rambus_wb_adr_o[2] I
+rambus_wb_adr_o[3] I
+rambus_wb_adr_o[4] I
+rambus_wb_adr_o[5] I
+rambus_wb_adr_o[6] I
+rambus_wb_adr_o[7] I
+rambus_wb_adr_o[8] I
+rambus_wb_adr_o[9] I
+rambus_wb_clk_o I
+rambus_wb_cyc_o I
 rambus_wb_dat_i[0] I
 rambus_wb_dat_i[10] I
 rambus_wb_dat_i[11] I
@@ -8615,48 +8615,48 @@ rambus_wb_dat_i[6] I
 rambus_wb_dat_i[7] I
 rambus_wb_dat_i[8] I
 rambus_wb_dat_i[9] I
-rambus_wb_dat_o[0] O
-rambus_wb_dat_o[10] O
-rambus_wb_dat_o[11] O
-rambus_wb_dat_o[12] O
-rambus_wb_dat_o[13] O
-rambus_wb_dat_o[14] O
-rambus_wb_dat_o[15] O
-rambus_wb_dat_o[16] O
-rambus_wb_dat_o[17] O
-rambus_wb_dat_o[18] O
-rambus_wb_dat_o[19] O
-rambus_wb_dat_o[1] O
-rambus_wb_dat_o[20] O
-rambus_wb_dat_o[21] O
-rambus_wb_dat_o[22] O
-rambus_wb_dat_o[23] O
-rambus_wb_dat_o[24] O
-rambus_wb_dat_o[25] O
-rambus_wb_dat_o[26] O
-rambus_wb_dat_o[27] O
-rambus_wb_dat_o[28] O
-rambus_wb_dat_o[29] O
-rambus_wb_dat_o[2] O
-rambus_wb_dat_o[30] O
-rambus_wb_dat_o[31] O
-rambus_wb_dat_o[3] O
-rambus_wb_dat_o[4] O
-rambus_wb_dat_o[5] O
-rambus_wb_dat_o[6] O
-rambus_wb_dat_o[7] O
-rambus_wb_dat_o[8] O
-rambus_wb_dat_o[9] O
-rambus_wb_rst_o O
-rambus_wb_sel_o[0] O
-rambus_wb_sel_o[1] O
-rambus_wb_sel_o[2] O
-rambus_wb_sel_o[3] O
-rambus_wb_stb_o O
-rambus_wb_we_o O
+rambus_wb_dat_o[0] I
+rambus_wb_dat_o[10] I
+rambus_wb_dat_o[11] I
+rambus_wb_dat_o[12] I
+rambus_wb_dat_o[13] I
+rambus_wb_dat_o[14] I
+rambus_wb_dat_o[15] I
+rambus_wb_dat_o[16] I
+rambus_wb_dat_o[17] I
+rambus_wb_dat_o[18] I
+rambus_wb_dat_o[19] I
+rambus_wb_dat_o[1] I
+rambus_wb_dat_o[20] I
+rambus_wb_dat_o[21] I
+rambus_wb_dat_o[22] I
+rambus_wb_dat_o[23] I
+rambus_wb_dat_o[24] I
+rambus_wb_dat_o[25] I
+rambus_wb_dat_o[26] I
+rambus_wb_dat_o[27] I
+rambus_wb_dat_o[28] I
+rambus_wb_dat_o[29] I
+rambus_wb_dat_o[2] I
+rambus_wb_dat_o[30] I
+rambus_wb_dat_o[31] I
+rambus_wb_dat_o[3] I
+rambus_wb_dat_o[4] I
+rambus_wb_dat_o[5] I
+rambus_wb_dat_o[6] I
+rambus_wb_dat_o[7] I
+rambus_wb_dat_o[8] I
+rambus_wb_dat_o[9] I
+rambus_wb_rst_o I
+rambus_wb_sel_o[0] I
+rambus_wb_sel_o[1] I
+rambus_wb_sel_o[2] I
+rambus_wb_sel_o[3] I
+rambus_wb_stb_o I
+rambus_wb_we_o I
 wb_clk_i I
 wb_rst_i I
-wbs_ack_o O
+wbs_ack_o I
 wbs_adr_i[0] I
 wbs_adr_i[10] I
 wbs_adr_i[11] I
@@ -8722,38 +8722,38 @@ wbs_dat_i[6] I
 wbs_dat_i[7] I
 wbs_dat_i[8] I
 wbs_dat_i[9] I
-wbs_dat_o[0] O
-wbs_dat_o[10] O
-wbs_dat_o[11] O
-wbs_dat_o[12] O
-wbs_dat_o[13] O
-wbs_dat_o[14] O
-wbs_dat_o[15] O
-wbs_dat_o[16] O
-wbs_dat_o[17] O
-wbs_dat_o[18] O
-wbs_dat_o[19] O
-wbs_dat_o[1] O
-wbs_dat_o[20] O
-wbs_dat_o[21] O
-wbs_dat_o[22] O
-wbs_dat_o[23] O
-wbs_dat_o[24] O
-wbs_dat_o[25] O
-wbs_dat_o[26] O
-wbs_dat_o[27] O
-wbs_dat_o[28] O
-wbs_dat_o[29] O
-wbs_dat_o[2] O
-wbs_dat_o[30] O
-wbs_dat_o[31] O
-wbs_dat_o[3] O
-wbs_dat_o[4] O
-wbs_dat_o[5] O
-wbs_dat_o[6] O
-wbs_dat_o[7] O
-wbs_dat_o[8] O
-wbs_dat_o[9] O
+wbs_dat_o[0] I
+wbs_dat_o[10] I
+wbs_dat_o[11] I
+wbs_dat_o[12] I
+wbs_dat_o[13] I
+wbs_dat_o[14] I
+wbs_dat_o[15] I
+wbs_dat_o[16] I
+wbs_dat_o[17] I
+wbs_dat_o[18] I
+wbs_dat_o[19] I
+wbs_dat_o[1] I
+wbs_dat_o[20] I
+wbs_dat_o[21] I
+wbs_dat_o[22] I
+wbs_dat_o[23] I
+wbs_dat_o[24] I
+wbs_dat_o[25] I
+wbs_dat_o[26] I
+wbs_dat_o[27] I
+wbs_dat_o[28] I
+wbs_dat_o[29] I
+wbs_dat_o[2] I
+wbs_dat_o[30] I
+wbs_dat_o[31] I
+wbs_dat_o[3] I
+wbs_dat_o[4] I
+wbs_dat_o[5] I
+wbs_dat_o[6] I
+wbs_dat_o[7] I
+wbs_dat_o[8] I
+wbs_dat_o[9] I
 wbs_sel_i[0] I
 wbs_sel_i[1] I
 wbs_sel_i[2] I
@@ -8778,7 +8778,7 @@ wbs_we_i I
 
 *D_NET *40 0.00150143
 *CONN
-*P io_oeb[0] O
+*P io_oeb[0] I
 *I *8278:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[0] 0.000563193
@@ -8795,7 +8795,7 @@ wbs_we_i I
 
 *D_NET *41 0.000932834
 *CONN
-*P io_oeb[10] O
+*P io_oeb[10] I
 *I *8288:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[10] 0.000279417
@@ -8811,7 +8811,7 @@ wbs_we_i I
 
 *D_NET *42 0.00108707
 *CONN
-*P io_oeb[11] O
+*P io_oeb[11] I
 *I *8289:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[11] 0.000515555
@@ -8826,7 +8826,7 @@ wbs_we_i I
 
 *D_NET *43 0.00205302
 *CONN
-*P io_oeb[12] O
+*P io_oeb[12] I
 *I *8290:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[12] 0.000599366
@@ -8841,7 +8841,7 @@ wbs_we_i I
 
 *D_NET *44 0.00157679
 *CONN
-*P io_oeb[13] O
+*P io_oeb[13] I
 *I *8291:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[13] 0.000548566
@@ -8856,7 +8856,7 @@ wbs_we_i I
 
 *D_NET *45 0.00325166
 *CONN
-*P io_oeb[14] O
+*P io_oeb[14] I
 *I *8292:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[14] 0.000831478
@@ -8877,7 +8877,7 @@ wbs_we_i I
 
 *D_NET *46 0.000714996
 *CONN
-*P io_oeb[15] O
+*P io_oeb[15] I
 *I *8293:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[15] 0.000228665
@@ -8892,7 +8892,7 @@ wbs_we_i I
 
 *D_NET *47 0.000704445
 *CONN
-*P io_oeb[16] O
+*P io_oeb[16] I
 *I *8294:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[16] 0.000253858
@@ -8907,7 +8907,7 @@ wbs_we_i I
 
 *D_NET *48 0.00134722
 *CONN
-*P io_oeb[17] O
+*P io_oeb[17] I
 *I *8295:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[17] 0.000541336
@@ -8921,7 +8921,7 @@ wbs_we_i I
 
 *D_NET *49 0.000797466
 *CONN
-*P io_oeb[18] O
+*P io_oeb[18] I
 *I *8296:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[18] 0.000326459
@@ -8935,7 +8935,7 @@ wbs_we_i I
 
 *D_NET *50 0.00139224
 *CONN
-*P io_oeb[19] O
+*P io_oeb[19] I
 *I *8297:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[19] 0.000694281
@@ -8952,7 +8952,7 @@ wbs_we_i I
 
 *D_NET *51 0.00125526
 *CONN
-*P io_oeb[1] O
+*P io_oeb[1] I
 *I *8279:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[1] 0.000627628
@@ -8967,7 +8967,7 @@ wbs_we_i I
 
 *D_NET *52 0.000672833
 *CONN
-*P io_oeb[20] O
+*P io_oeb[20] I
 *I *8298:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[20] 0.000276297
@@ -8982,7 +8982,7 @@ wbs_we_i I
 
 *D_NET *53 0.00128605
 *CONN
-*P io_oeb[21] O
+*P io_oeb[21] I
 *I *8299:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[21] 0.000482843
@@ -8997,7 +8997,7 @@ wbs_we_i I
 
 *D_NET *54 0.00231382
 *CONN
-*P io_oeb[22] O
+*P io_oeb[22] I
 *I *8300:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[22] 0.000765079
@@ -9013,7 +9013,7 @@ wbs_we_i I
 
 *D_NET *55 0.00137114
 *CONN
-*P io_oeb[23] O
+*P io_oeb[23] I
 *I *8301:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[23] 0.000576435
@@ -9028,7 +9028,7 @@ wbs_we_i I
 
 *D_NET *56 0.00418947
 *CONN
-*P io_oeb[24] O
+*P io_oeb[24] I
 *I *8302:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[24] 0.00148696
@@ -9043,7 +9043,7 @@ wbs_we_i I
 
 *D_NET *57 0.00114807
 *CONN
-*P io_oeb[25] O
+*P io_oeb[25] I
 *I *8303:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[25] 0.000574033
@@ -9055,7 +9055,7 @@ wbs_we_i I
 
 *D_NET *58 0.0013787
 *CONN
-*P io_oeb[26] O
+*P io_oeb[26] I
 *I *8304:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[26] 0.000586838
@@ -9070,7 +9070,7 @@ wbs_we_i I
 
 *D_NET *59 0.000660558
 *CONN
-*P io_oeb[27] O
+*P io_oeb[27] I
 *I *8305:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[27] 0.000209943
@@ -9085,7 +9085,7 @@ wbs_we_i I
 
 *D_NET *60 0.00207005
 *CONN
-*P io_oeb[28] O
+*P io_oeb[28] I
 *I *8306:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[28] 0.000841666
@@ -9101,7 +9101,7 @@ wbs_we_i I
 
 *D_NET *61 0.0020916
 *CONN
-*P io_oeb[29] O
+*P io_oeb[29] I
 *I *8307:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[29] 0.000728748
@@ -9121,7 +9121,7 @@ wbs_we_i I
 
 *D_NET *62 0.00280774
 *CONN
-*P io_oeb[2] O
+*P io_oeb[2] I
 *I *8280:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[2] 0.00126433
@@ -9138,7 +9138,7 @@ wbs_we_i I
 
 *D_NET *63 0.00389111
 *CONN
-*P io_oeb[30] O
+*P io_oeb[30] I
 *I *8308:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[30] 0.000688269
@@ -9159,7 +9159,7 @@ wbs_we_i I
 
 *D_NET *64 0.000820874
 *CONN
-*P io_oeb[31] O
+*P io_oeb[31] I
 *I *8309:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[31] 0.000338455
@@ -9174,7 +9174,7 @@ wbs_we_i I
 
 *D_NET *65 0.00123427
 *CONN
-*P io_oeb[32] O
+*P io_oeb[32] I
 *I *8310:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[32] 0.000584724
@@ -9189,7 +9189,7 @@ wbs_we_i I
 
 *D_NET *66 0.000951457
 *CONN
-*P io_oeb[33] O
+*P io_oeb[33] I
 *I *8311:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[33] 0.000475729
@@ -9202,7 +9202,7 @@ wbs_we_i I
 
 *D_NET *67 0.00132967
 *CONN
-*P io_oeb[34] O
+*P io_oeb[34] I
 *I *8312:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[34] 0.000540444
@@ -9217,7 +9217,7 @@ wbs_we_i I
 
 *D_NET *68 0.00163695
 *CONN
-*P io_oeb[35] O
+*P io_oeb[35] I
 *I *8313:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[35] 0.000683012
@@ -9232,7 +9232,7 @@ wbs_we_i I
 
 *D_NET *69 0.00122815
 *CONN
-*P io_oeb[36] O
+*P io_oeb[36] I
 *I *8314:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[36] 0.00048852
@@ -9246,7 +9246,7 @@ wbs_we_i I
 
 *D_NET *70 0.00162742
 *CONN
-*P io_oeb[37] O
+*P io_oeb[37] I
 *I *8315:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[37] 0.000699221
@@ -9261,7 +9261,7 @@ wbs_we_i I
 
 *D_NET *71 0.00116455
 *CONN
-*P io_oeb[3] O
+*P io_oeb[3] I
 *I *8281:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[3] 0.00029427
@@ -9276,7 +9276,7 @@ wbs_we_i I
 
 *D_NET *72 0.00157504
 *CONN
-*P io_oeb[4] O
+*P io_oeb[4] I
 *I *8282:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[4] 0.000626501
@@ -9292,7 +9292,7 @@ wbs_we_i I
 
 *D_NET *73 0.00105
 *CONN
-*P io_oeb[5] O
+*P io_oeb[5] I
 *I *8283:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[5] 0.000266371
@@ -9307,7 +9307,7 @@ wbs_we_i I
 
 *D_NET *74 0.00182934
 *CONN
-*P io_oeb[6] O
+*P io_oeb[6] I
 *I *8284:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[6] 0.000656455
@@ -9323,7 +9323,7 @@ wbs_we_i I
 
 *D_NET *75 0.000963497
 *CONN
-*P io_oeb[7] O
+*P io_oeb[7] I
 *I *8285:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[7] 0.00030418
@@ -9338,7 +9338,7 @@ wbs_we_i I
 
 *D_NET *76 0.00151621
 *CONN
-*P io_oeb[8] O
+*P io_oeb[8] I
 *I *8286:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[8] 0.000572012
@@ -9354,7 +9354,7 @@ wbs_we_i I
 
 *D_NET *77 0.00122733
 *CONN
-*P io_oeb[9] O
+*P io_oeb[9] I
 *I *8287:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_oeb[9] 0.000411455
@@ -9369,7 +9369,7 @@ wbs_we_i I
 
 *D_NET *78 0.00122801
 *CONN
-*P io_out[0] O
+*P io_out[0] I
 *I *8240:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[0] 0.000614006
@@ -9381,7 +9381,7 @@ wbs_we_i I
 
 *D_NET *79 0.0209952
 *CONN
-*P io_out[10] O
+*P io_out[10] I
 *I *8250:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[10] 0.000787665
@@ -9408,7 +9408,7 @@ wbs_we_i I
 
 *D_NET *80 0.0188076
 *CONN
-*P io_out[11] O
+*P io_out[11] I
 *I *8251:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[11] 0.000671436
@@ -9436,7 +9436,7 @@ wbs_we_i I
 
 *D_NET *81 0.0204828
 *CONN
-*P io_out[12] O
+*P io_out[12] I
 *I *8252:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[12] 0.000137985
@@ -9474,7 +9474,7 @@ wbs_we_i I
 
 *D_NET *82 0.0217331
 *CONN
-*P io_out[13] O
+*P io_out[13] I
 *I *8253:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[13] 0.00177375
@@ -9498,7 +9498,7 @@ wbs_we_i I
 
 *D_NET *83 0.0150411
 *CONN
-*P io_out[14] O
+*P io_out[14] I
 *I *8254:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[14] 0.000521723
@@ -9523,7 +9523,7 @@ wbs_we_i I
 
 *D_NET *84 0.0142138
 *CONN
-*P io_out[15] O
+*P io_out[15] I
 *I *8255:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[15] 0.000165615
@@ -9545,7 +9545,7 @@ wbs_we_i I
 
 *D_NET *85 0.0112971
 *CONN
-*P io_out[16] O
+*P io_out[16] I
 *I *8256:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[16] 0.00144175
@@ -9571,7 +9571,7 @@ wbs_we_i I
 
 *D_NET *86 0.0210598
 *CONN
-*P io_out[17] O
+*P io_out[17] I
 *I *8257:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[17] 0.000769766
@@ -9596,7 +9596,7 @@ wbs_we_i I
 
 *D_NET *87 0.00657332
 *CONN
-*P io_out[18] O
+*P io_out[18] I
 *I *8258:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[18] 0.00129361
@@ -9614,7 +9614,7 @@ wbs_we_i I
 
 *D_NET *88 0.0203362
 *CONN
-*P io_out[19] O
+*P io_out[19] I
 *I *8259:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[19] 0.00133364
@@ -9647,7 +9647,7 @@ wbs_we_i I
 
 *D_NET *89 0.00111126
 *CONN
-*P io_out[1] O
+*P io_out[1] I
 *I *8241:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[1] 0.000555629
@@ -9661,7 +9661,7 @@ wbs_we_i I
 
 *D_NET *90 0.0151563
 *CONN
-*P io_out[20] O
+*P io_out[20] I
 *I *8260:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[20] 0.00128781
@@ -9696,7 +9696,7 @@ wbs_we_i I
 
 *D_NET *91 0.0165452
 *CONN
-*P io_out[21] O
+*P io_out[21] I
 *I *8261:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[21] 0.000935469
@@ -9735,7 +9735,7 @@ wbs_we_i I
 
 *D_NET *92 0.00190543
 *CONN
-*P io_out[22] O
+*P io_out[22] I
 *I *8262:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[22] 0.000868253
@@ -9750,7 +9750,7 @@ wbs_we_i I
 
 *D_NET *93 0.00152978
 *CONN
-*P io_out[23] O
+*P io_out[23] I
 *I *8263:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[23] 0.00076489
@@ -9764,7 +9764,7 @@ wbs_we_i I
 
 *D_NET *94 0.00167601
 *CONN
-*P io_out[24] O
+*P io_out[24] I
 *I *8264:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[24] 0.000636771
@@ -9780,7 +9780,7 @@ wbs_we_i I
 
 *D_NET *95 0.00138496
 *CONN
-*P io_out[25] O
+*P io_out[25] I
 *I *8265:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[25] 0.000585605
@@ -9794,7 +9794,7 @@ wbs_we_i I
 
 *D_NET *96 0.00155172
 *CONN
-*P io_out[26] O
+*P io_out[26] I
 *I *8266:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[26] 0.000686347
@@ -9809,7 +9809,7 @@ wbs_we_i I
 
 *D_NET *97 0.000744747
 *CONN
-*P io_out[27] O
+*P io_out[27] I
 *I *8267:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[27] 0.000272462
@@ -9824,7 +9824,7 @@ wbs_we_i I
 
 *D_NET *98 0.00105086
 *CONN
-*P io_out[28] O
+*P io_out[28] I
 *I *8268:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[28] 0.000525432
@@ -9837,7 +9837,7 @@ wbs_we_i I
 
 *D_NET *99 0.00157997
 *CONN
-*P io_out[29] O
+*P io_out[29] I
 *I *8269:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[29] 0.000618766
@@ -9853,7 +9853,7 @@ wbs_we_i I
 
 *D_NET *100 0.000935722
 *CONN
-*P io_out[2] O
+*P io_out[2] I
 *I *8242:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[2] 0.000259754
@@ -9868,7 +9868,7 @@ wbs_we_i I
 
 *D_NET *101 0.00247168
 *CONN
-*P io_out[30] O
+*P io_out[30] I
 *I *8270:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[30] 0.000858791
@@ -9889,7 +9889,7 @@ wbs_we_i I
 
 *D_NET *102 0.000888952
 *CONN
-*P io_out[31] O
+*P io_out[31] I
 *I *8271:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[31] 0.000268986
@@ -9904,7 +9904,7 @@ wbs_we_i I
 
 *D_NET *103 0.00102439
 *CONN
-*P io_out[32] O
+*P io_out[32] I
 *I *8272:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[32] 0.000481467
@@ -9919,7 +9919,7 @@ wbs_we_i I
 
 *D_NET *104 0.00124156
 *CONN
-*P io_out[33] O
+*P io_out[33] I
 *I *8273:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[33] 0.000433036
@@ -9935,7 +9935,7 @@ wbs_we_i I
 
 *D_NET *105 0.00638802
 *CONN
-*P io_out[34] O
+*P io_out[34] I
 *I *8274:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[34] 0.000531757
@@ -9960,7 +9960,7 @@ wbs_we_i I
 
 *D_NET *106 0.00195404
 *CONN
-*P io_out[35] O
+*P io_out[35] I
 *I *8275:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[35] 0.000487866
@@ -9976,7 +9976,7 @@ wbs_we_i I
 
 *D_NET *107 0.00140524
 *CONN
-*P io_out[36] O
+*P io_out[36] I
 *I *8276:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[36] 0.000482492
@@ -9988,7 +9988,7 @@ wbs_we_i I
 
 *D_NET *108 0.001832
 *CONN
-*P io_out[37] O
+*P io_out[37] I
 *I *8277:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[37] 0.000804724
@@ -10004,7 +10004,7 @@ wbs_we_i I
 
 *D_NET *109 0.00126209
 *CONN
-*P io_out[3] O
+*P io_out[3] I
 *I *8243:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[3] 0.000631044
@@ -10018,7 +10018,7 @@ wbs_we_i I
 
 *D_NET *110 0.00161196
 *CONN
-*P io_out[4] O
+*P io_out[4] I
 *I *8244:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[4] 0.000640684
@@ -10031,7 +10031,7 @@ wbs_we_i I
 
 *D_NET *111 0.00211812
 *CONN
-*P io_out[5] O
+*P io_out[5] I
 *I *8245:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[5] 0.000468617
@@ -10045,7 +10045,7 @@ wbs_we_i I
 
 *D_NET *112 0.00204705
 *CONN
-*P io_out[6] O
+*P io_out[6] I
 *I *8246:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[6] 0.000794101
@@ -10060,7 +10060,7 @@ wbs_we_i I
 
 *D_NET *113 0.00153317
 *CONN
-*P io_out[7] O
+*P io_out[7] I
 *I *8247:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[7] 0.000362674
@@ -10075,7 +10075,7 @@ wbs_we_i I
 
 *D_NET *114 0.0214495
 *CONN
-*P io_out[8] O
+*P io_out[8] I
 *I *8248:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[8] 0.000755903
@@ -10123,7 +10123,7 @@ wbs_we_i I
 
 *D_NET *115 0.0363477
 *CONN
-*P io_out[9] O
+*P io_out[9] I
 *I *8249:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 io_out[9] 0.000101807
@@ -10223,7 +10223,7 @@ wbs_we_i I
 
 *D_NET *117 0.000820057
 *CONN
-*P rambus_wb_adr_o[0] O
+*P rambus_wb_adr_o[0] I
 *I *8230:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_adr_o[0] 0.000249729
@@ -10238,7 +10238,7 @@ wbs_we_i I
 
 *D_NET *118 0.000785902
 *CONN
-*P rambus_wb_adr_o[1] O
+*P rambus_wb_adr_o[1] I
 *I *8231:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_adr_o[1] 0.00028586
@@ -10254,7 +10254,7 @@ wbs_we_i I
 
 *D_NET *119 0.0126011
 *CONN
-*P rambus_wb_adr_o[2] O
+*P rambus_wb_adr_o[2] I
 *I *8232:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_adr_o[2] 0.00139049
@@ -10273,7 +10273,7 @@ wbs_we_i I
 
 *D_NET *120 0.0200232
 *CONN
-*P rambus_wb_adr_o[3] O
+*P rambus_wb_adr_o[3] I
 *I *8233:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_adr_o[3] 0.000751442
@@ -10302,7 +10302,7 @@ wbs_we_i I
 
 *D_NET *121 0.0168977
 *CONN
-*P rambus_wb_adr_o[4] O
+*P rambus_wb_adr_o[4] I
 *I *8234:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_adr_o[4] 0.00063384
@@ -10325,7 +10325,7 @@ wbs_we_i I
 
 *D_NET *122 0.03147
 *CONN
-*P rambus_wb_adr_o[5] O
+*P rambus_wb_adr_o[5] I
 *I *8235:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_adr_o[5] 0.00067218
@@ -10396,7 +10396,7 @@ wbs_we_i I
 
 *D_NET *123 0.0237682
 *CONN
-*P rambus_wb_adr_o[6] O
+*P rambus_wb_adr_o[6] I
 *I *8236:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_adr_o[6] 0.000586128
@@ -10432,7 +10432,7 @@ wbs_we_i I
 
 *D_NET *124 0.0307249
 *CONN
-*P rambus_wb_adr_o[7] O
+*P rambus_wb_adr_o[7] I
 *I *8237:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_adr_o[7] 0.00137373
@@ -10479,7 +10479,7 @@ wbs_we_i I
 
 *D_NET *125 0.00219394
 *CONN
-*P rambus_wb_adr_o[8] O
+*P rambus_wb_adr_o[8] I
 *I *8238:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_adr_o[8] 0.000849484
@@ -10496,7 +10496,7 @@ wbs_we_i I
 
 *D_NET *126 0.0120536
 *CONN
-*P rambus_wb_adr_o[9] O
+*P rambus_wb_adr_o[9] I
 *I *8239:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_adr_o[9] 0.000653681
@@ -10531,7 +10531,7 @@ wbs_we_i I
 
 *D_NET *127 0.00510907
 *CONN
-*P rambus_wb_clk_o O
+*P rambus_wb_clk_o I
 *I *8189:Z O *D sky130_fd_sc_hd__ebufn_2
 *CAP
 1 rambus_wb_clk_o 0.000869498
@@ -10551,7 +10551,7 @@ wbs_we_i I
 
 *D_NET *128 0.00188141
 *CONN
-*P rambus_wb_cyc_o O
+*P rambus_wb_cyc_o I
 *I *8192:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_cyc_o 0.000888851
@@ -11049,7 +11049,7 @@ wbs_we_i I
 
 *D_NET *161 0.00104107
 *CONN
-*P rambus_wb_dat_o[0] O
+*P rambus_wb_dat_o[0] I
 *I *8198:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[0] 0.000354544
@@ -11064,7 +11064,7 @@ wbs_we_i I
 
 *D_NET *162 0.00111917
 *CONN
-*P rambus_wb_dat_o[10] O
+*P rambus_wb_dat_o[10] I
 *I *8208:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[10] 0.000559587
@@ -11079,7 +11079,7 @@ wbs_we_i I
 
 *D_NET *163 0.00146701
 *CONN
-*P rambus_wb_dat_o[11] O
+*P rambus_wb_dat_o[11] I
 *I *8209:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[11] 0.000678646
@@ -11096,7 +11096,7 @@ wbs_we_i I
 
 *D_NET *164 0.00138431
 *CONN
-*P rambus_wb_dat_o[12] O
+*P rambus_wb_dat_o[12] I
 *I *8210:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[12] 0.000687705
@@ -11112,7 +11112,7 @@ wbs_we_i I
 
 *D_NET *165 0.00121324
 *CONN
-*P rambus_wb_dat_o[13] O
+*P rambus_wb_dat_o[13] I
 *I *8211:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[13] 0.000287257
@@ -11128,7 +11128,7 @@ wbs_we_i I
 
 *D_NET *166 0.00331548
 *CONN
-*P rambus_wb_dat_o[14] O
+*P rambus_wb_dat_o[14] I
 *I *8212:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[14] 0.00123326
@@ -11143,7 +11143,7 @@ wbs_we_i I
 
 *D_NET *167 0.00151556
 *CONN
-*P rambus_wb_dat_o[15] O
+*P rambus_wb_dat_o[15] I
 *I *8213:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[15] 0.000729311
@@ -11158,7 +11158,7 @@ wbs_we_i I
 
 *D_NET *168 0.0188397
 *CONN
-*P rambus_wb_dat_o[16] O
+*P rambus_wb_dat_o[16] I
 *I *8214:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[16] 0.00143243
@@ -11200,7 +11200,7 @@ wbs_we_i I
 
 *D_NET *169 0.00142431
 *CONN
-*P rambus_wb_dat_o[17] O
+*P rambus_wb_dat_o[17] I
 *I *8215:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[17] 0.000608436
@@ -11215,7 +11215,7 @@ wbs_we_i I
 
 *D_NET *170 0.00143965
 *CONN
-*P rambus_wb_dat_o[18] O
+*P rambus_wb_dat_o[18] I
 *I *8216:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[18] 0.000601495
@@ -11232,7 +11232,7 @@ wbs_we_i I
 
 *D_NET *171 0.00168901
 *CONN
-*P rambus_wb_dat_o[19] O
+*P rambus_wb_dat_o[19] I
 *I *8217:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[19] 0.000690131
@@ -11249,7 +11249,7 @@ wbs_we_i I
 
 *D_NET *172 0.00132985
 *CONN
-*P rambus_wb_dat_o[1] O
+*P rambus_wb_dat_o[1] I
 *I *8199:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[1] 0.000514607
@@ -11264,7 +11264,7 @@ wbs_we_i I
 
 *D_NET *173 0.00146815
 *CONN
-*P rambus_wb_dat_o[20] O
+*P rambus_wb_dat_o[20] I
 *I *8218:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[20] 0.000683174
@@ -11276,7 +11276,7 @@ wbs_we_i I
 
 *D_NET *174 0.000846432
 *CONN
-*P rambus_wb_dat_o[21] O
+*P rambus_wb_dat_o[21] I
 *I *8219:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[21] 0.000423216
@@ -11289,7 +11289,7 @@ wbs_we_i I
 
 *D_NET *175 0.00204228
 *CONN
-*P rambus_wb_dat_o[22] O
+*P rambus_wb_dat_o[22] I
 *I *8220:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[22] 0.000755788
@@ -11307,7 +11307,7 @@ wbs_we_i I
 
 *D_NET *176 0.000655723
 *CONN
-*P rambus_wb_dat_o[23] O
+*P rambus_wb_dat_o[23] I
 *I *8221:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[23] 0.000276857
@@ -11320,7 +11320,7 @@ wbs_we_i I
 
 *D_NET *177 0.000940648
 *CONN
-*P rambus_wb_dat_o[24] O
+*P rambus_wb_dat_o[24] I
 *I *8222:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[24] 0.000470324
@@ -11331,7 +11331,7 @@ wbs_we_i I
 
 *D_NET *178 0.00149838
 *CONN
-*P rambus_wb_dat_o[25] O
+*P rambus_wb_dat_o[25] I
 *I *8223:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[25] 0.000685639
@@ -11346,7 +11346,7 @@ wbs_we_i I
 
 *D_NET *179 0.00189752
 *CONN
-*P rambus_wb_dat_o[26] O
+*P rambus_wb_dat_o[26] I
 *I *8224:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[26] 0.000779446
@@ -11363,7 +11363,7 @@ wbs_we_i I
 
 *D_NET *180 0.00136635
 *CONN
-*P rambus_wb_dat_o[27] O
+*P rambus_wb_dat_o[27] I
 *I *8225:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[27] 0.000611794
@@ -11377,7 +11377,7 @@ wbs_we_i I
 
 *D_NET *181 0.0050687
 *CONN
-*P rambus_wb_dat_o[28] O
+*P rambus_wb_dat_o[28] I
 *I *8226:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[28] 0.0017495
@@ -11396,7 +11396,7 @@ wbs_we_i I
 
 *D_NET *182 0.00240788
 *CONN
-*P rambus_wb_dat_o[29] O
+*P rambus_wb_dat_o[29] I
 *I *8227:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[29] 0.00103495
@@ -11412,7 +11412,7 @@ wbs_we_i I
 
 *D_NET *183 0.00183307
 *CONN
-*P rambus_wb_dat_o[2] O
+*P rambus_wb_dat_o[2] I
 *I *8200:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[2] 0.000591
@@ -11431,7 +11431,7 @@ wbs_we_i I
 
 *D_NET *184 0.000662533
 *CONN
-*P rambus_wb_dat_o[30] O
+*P rambus_wb_dat_o[30] I
 *I *8228:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[30] 0.000221923
@@ -11446,7 +11446,7 @@ wbs_we_i I
 
 *D_NET *185 0.0068314
 *CONN
-*P rambus_wb_dat_o[31] O
+*P rambus_wb_dat_o[31] I
 *I *8229:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[31] 0.000799591
@@ -11468,7 +11468,7 @@ wbs_we_i I
 
 *D_NET *186 0.0015118
 *CONN
-*P rambus_wb_dat_o[3] O
+*P rambus_wb_dat_o[3] I
 *I *8201:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[3] 0.000751226
@@ -11483,7 +11483,7 @@ wbs_we_i I
 
 *D_NET *187 0.00182877
 *CONN
-*P rambus_wb_dat_o[4] O
+*P rambus_wb_dat_o[4] I
 *I *8202:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[4] 0.000689764
@@ -11499,7 +11499,7 @@ wbs_we_i I
 
 *D_NET *188 0.00165496
 *CONN
-*P rambus_wb_dat_o[5] O
+*P rambus_wb_dat_o[5] I
 *I *8203:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[5] 0.000651006
@@ -11514,7 +11514,7 @@ wbs_we_i I
 
 *D_NET *189 0.00108469
 *CONN
-*P rambus_wb_dat_o[6] O
+*P rambus_wb_dat_o[6] I
 *I *8204:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[6] 0.000542345
@@ -11527,7 +11527,7 @@ wbs_we_i I
 
 *D_NET *190 0.00067385
 *CONN
-*P rambus_wb_dat_o[7] O
+*P rambus_wb_dat_o[7] I
 *I *8205:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[7] 0.000231425
@@ -11541,7 +11541,7 @@ wbs_we_i I
 
 *D_NET *191 0.0011167
 *CONN
-*P rambus_wb_dat_o[8] O
+*P rambus_wb_dat_o[8] I
 *I *8206:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[8] 0.000558349
@@ -11556,7 +11556,7 @@ wbs_we_i I
 
 *D_NET *192 0.00134913
 *CONN
-*P rambus_wb_dat_o[9] O
+*P rambus_wb_dat_o[9] I
 *I *8207:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_dat_o[9] 0.000632437
@@ -11571,7 +11571,7 @@ wbs_we_i I
 
 *D_NET *193 0.0101956
 *CONN
-*P rambus_wb_rst_o O
+*P rambus_wb_rst_o I
 *I *8190:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_rst_o 0.000766042
@@ -11595,7 +11595,7 @@ wbs_we_i I
 
 *D_NET *194 0.0010772
 *CONN
-*P rambus_wb_sel_o[0] O
+*P rambus_wb_sel_o[0] I
 *I *8194:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_sel_o[0] 0.000538601
@@ -11607,7 +11607,7 @@ wbs_we_i I
 
 *D_NET *195 0.00124163
 *CONN
-*P rambus_wb_sel_o[1] O
+*P rambus_wb_sel_o[1] I
 *I *8195:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_sel_o[1] 0.000620817
@@ -11621,7 +11621,7 @@ wbs_we_i I
 
 *D_NET *196 0.00126588
 *CONN
-*P rambus_wb_sel_o[2] O
+*P rambus_wb_sel_o[2] I
 *I *8196:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_sel_o[2] 0.000584469
@@ -11636,7 +11636,7 @@ wbs_we_i I
 
 *D_NET *197 0.00135655
 *CONN
-*P rambus_wb_sel_o[3] O
+*P rambus_wb_sel_o[3] I
 *I *8197:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_sel_o[3] 0.000541892
@@ -11650,7 +11650,7 @@ wbs_we_i I
 
 *D_NET *198 0.00124258
 *CONN
-*P rambus_wb_stb_o O
+*P rambus_wb_stb_o I
 *I *8191:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_stb_o 0.00059098
@@ -11665,7 +11665,7 @@ wbs_we_i I
 
 *D_NET *199 0.00125249
 *CONN
-*P rambus_wb_we_o O
+*P rambus_wb_we_o I
 *I *8193:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 rambus_wb_we_o 0.000461641
@@ -11780,7 +11780,7 @@ wbs_we_i I
 
 *D_NET *204 0.0174541
 *CONN
-*P wbs_ack_o O
+*P wbs_ack_o I
 *I *8156:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_ack_o 0.000772499
@@ -12676,7 +12676,7 @@ wbs_we_i I
 
 *D_NET *270 0.0205027
 *CONN
-*P wbs_dat_o[0] O
+*P wbs_dat_o[0] I
 *I *8157:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[0] 0.0018606
@@ -12728,7 +12728,7 @@ wbs_we_i I
 
 *D_NET *271 0.0151218
 *CONN
-*P wbs_dat_o[10] O
+*P wbs_dat_o[10] I
 *I *8167:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[10] 0.00218964
@@ -12752,7 +12752,7 @@ wbs_we_i I
 
 *D_NET *272 0.0276967
 *CONN
-*P wbs_dat_o[11] O
+*P wbs_dat_o[11] I
 *I *8168:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[11] 0.0019003
@@ -12801,7 +12801,7 @@ wbs_we_i I
 
 *D_NET *273 0.0223404
 *CONN
-*P wbs_dat_o[12] O
+*P wbs_dat_o[12] I
 *I *8169:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[12] 0.000669405
@@ -12846,7 +12846,7 @@ wbs_we_i I
 
 *D_NET *274 0.0185822
 *CONN
-*P wbs_dat_o[13] O
+*P wbs_dat_o[13] I
 *I *8170:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[13] 0.000950678
@@ -12876,7 +12876,7 @@ wbs_we_i I
 
 *D_NET *275 0.017989
 *CONN
-*P wbs_dat_o[14] O
+*P wbs_dat_o[14] I
 *I *8171:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[14] 0.000947137
@@ -12907,7 +12907,7 @@ wbs_we_i I
 
 *D_NET *276 0.0257446
 *CONN
-*P wbs_dat_o[15] O
+*P wbs_dat_o[15] I
 *I *8172:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[15] 4.25268e-05
@@ -12930,7 +12930,7 @@ wbs_we_i I
 
 *D_NET *277 0.0116943
 *CONN
-*P wbs_dat_o[16] O
+*P wbs_dat_o[16] I
 *I *8173:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[16] 0.00212817
@@ -12962,7 +12962,7 @@ wbs_we_i I
 
 *D_NET *278 0.0113627
 *CONN
-*P wbs_dat_o[17] O
+*P wbs_dat_o[17] I
 *I *8174:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[17] 0.00113849
@@ -12997,7 +12997,7 @@ wbs_we_i I
 
 *D_NET *279 0.0192326
 *CONN
-*P wbs_dat_o[18] O
+*P wbs_dat_o[18] I
 *I *8175:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[18] 0.000867064
@@ -13048,7 +13048,7 @@ wbs_we_i I
 
 *D_NET *280 0.0132702
 *CONN
-*P wbs_dat_o[19] O
+*P wbs_dat_o[19] I
 *I *8176:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[19] 0.00284854
@@ -13071,7 +13071,7 @@ wbs_we_i I
 
 *D_NET *281 0.0145483
 *CONN
-*P wbs_dat_o[1] O
+*P wbs_dat_o[1] I
 *I *8158:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[1] 0.000547585
@@ -13111,7 +13111,7 @@ wbs_we_i I
 
 *D_NET *282 0.0121456
 *CONN
-*P wbs_dat_o[20] O
+*P wbs_dat_o[20] I
 *I *8177:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[20] 0.00221916
@@ -13157,7 +13157,7 @@ wbs_we_i I
 
 *D_NET *283 0.0140878
 *CONN
-*P wbs_dat_o[21] O
+*P wbs_dat_o[21] I
 *I *8178:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[21] 0.00073275
@@ -13184,7 +13184,7 @@ wbs_we_i I
 
 *D_NET *284 0.00520987
 *CONN
-*P wbs_dat_o[22] O
+*P wbs_dat_o[22] I
 *I *8179:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[22] 0.000823565
@@ -13201,7 +13201,7 @@ wbs_we_i I
 
 *D_NET *285 0.0046088
 *CONN
-*P wbs_dat_o[23] O
+*P wbs_dat_o[23] I
 *I *8180:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[23] 0.00170605
@@ -13218,7 +13218,7 @@ wbs_we_i I
 
 *D_NET *286 0.011947
 *CONN
-*P wbs_dat_o[24] O
+*P wbs_dat_o[24] I
 *I *8181:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[24] 0.00182447
@@ -13249,7 +13249,7 @@ wbs_we_i I
 
 *D_NET *287 0.002361
 *CONN
-*P wbs_dat_o[25] O
+*P wbs_dat_o[25] I
 *I *8182:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[25] 0.000930503
@@ -13266,7 +13266,7 @@ wbs_we_i I
 
 *D_NET *288 0.00180726
 *CONN
-*P wbs_dat_o[26] O
+*P wbs_dat_o[26] I
 *I *8183:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[26] 0.000599683
@@ -13283,7 +13283,7 @@ wbs_we_i I
 
 *D_NET *289 0.00165956
 *CONN
-*P wbs_dat_o[27] O
+*P wbs_dat_o[27] I
 *I *8184:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[27] 0.000655048
@@ -13301,7 +13301,7 @@ wbs_we_i I
 
 *D_NET *290 0.0015314
 *CONN
-*P wbs_dat_o[28] O
+*P wbs_dat_o[28] I
 *I *8185:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[28] 0.000741626
@@ -13317,7 +13317,7 @@ wbs_we_i I
 
 *D_NET *291 0.00225323
 *CONN
-*P wbs_dat_o[29] O
+*P wbs_dat_o[29] I
 *I *8186:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[29] 0.000908212
@@ -13331,7 +13331,7 @@ wbs_we_i I
 
 *D_NET *292 0.0252151
 *CONN
-*P wbs_dat_o[2] O
+*P wbs_dat_o[2] I
 *I *8159:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[2] 0.000759943
@@ -13362,7 +13362,7 @@ wbs_we_i I
 
 *D_NET *293 0.00168964
 *CONN
-*P wbs_dat_o[30] O
+*P wbs_dat_o[30] I
 *I *8187:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[30] 0.000695762
@@ -13379,7 +13379,7 @@ wbs_we_i I
 
 *D_NET *294 0.000651035
 *CONN
-*P wbs_dat_o[31] O
+*P wbs_dat_o[31] I
 *I *8188:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[31] 0.000211269
@@ -13394,7 +13394,7 @@ wbs_we_i I
 
 *D_NET *295 0.0134065
 *CONN
-*P wbs_dat_o[3] O
+*P wbs_dat_o[3] I
 *I *8160:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[3] 0.00051515
@@ -13422,7 +13422,7 @@ wbs_we_i I
 
 *D_NET *296 0.00411629
 *CONN
-*P wbs_dat_o[4] O
+*P wbs_dat_o[4] I
 *I *8161:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[4] 0.000817691
@@ -13448,7 +13448,7 @@ wbs_we_i I
 
 *D_NET *297 0.0275812
 *CONN
-*P wbs_dat_o[5] O
+*P wbs_dat_o[5] I
 *I *8162:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[5] 0.000650019
@@ -13479,7 +13479,7 @@ wbs_we_i I
 
 *D_NET *298 0.0256332
 *CONN
-*P wbs_dat_o[6] O
+*P wbs_dat_o[6] I
 *I *8163:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[6] 0.000566675
@@ -13508,7 +13508,7 @@ wbs_we_i I
 
 *D_NET *299 0.00699579
 *CONN
-*P wbs_dat_o[7] O
+*P wbs_dat_o[7] I
 *I *8164:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[7] 0.00107203
@@ -13543,7 +13543,7 @@ wbs_we_i I
 
 *D_NET *300 0.0225792
 *CONN
-*P wbs_dat_o[8] O
+*P wbs_dat_o[8] I
 *I *8165:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[8] 2.27669e-05
@@ -13580,7 +13580,7 @@ wbs_we_i I
 
 *D_NET *301 0.0226551
 *CONN
-*P wbs_dat_o[9] O
+*P wbs_dat_o[9] I
 *I *8166:Z O *D sky130_fd_sc_hd__ebufn_8
 *CAP
 1 wbs_dat_o[9] 0.000749289

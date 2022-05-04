@@ -7174,307 +7174,307 @@ PINS 307 ;
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 214540 ) N ;
-    - io_oeb[0] + NET io_oeb[0] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[0] + NET io_oeb[0] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 32430 2000 ) N ;
-    - io_oeb[10] + NET io_oeb[10] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[10] + NET io_oeb[10] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 122740 ) N ;
-    - io_oeb[11] + NET io_oeb[11] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[11] + NET io_oeb[11] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 225630 2000 ) N ;
-    - io_oeb[12] + NET io_oeb[12] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[12] + NET io_oeb[12] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 29210 2000 ) N ;
-    - io_oeb[13] + NET io_oeb[13] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[13] + NET io_oeb[13] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 241730 2000 ) N ;
-    - io_oeb[14] + NET io_oeb[14] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[14] + NET io_oeb[14] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 38870 258000 ) N ;
-    - io_oeb[15] + NET io_oeb[15] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[15] + NET io_oeb[15] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 217940 ) N ;
-    - io_oeb[16] + NET io_oeb[16] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[16] + NET io_oeb[16] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 24140 ) N ;
-    - io_oeb[17] + NET io_oeb[17] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[17] + NET io_oeb[17] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 34340 ) N ;
-    - io_oeb[18] + NET io_oeb[18] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[18] + NET io_oeb[18] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 207740 ) N ;
-    - io_oeb[19] + NET io_oeb[19] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[19] + NET io_oeb[19] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 183770 2000 ) N ;
-    - io_oeb[1] + NET io_oeb[1] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[1] + NET io_oeb[1] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 215970 258000 ) N ;
-    - io_oeb[20] + NET io_oeb[20] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[20] + NET io_oeb[20] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 234940 ) N ;
-    - io_oeb[21] + NET io_oeb[21] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[21] + NET io_oeb[21] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 47940 ) N ;
-    - io_oeb[22] + NET io_oeb[22] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[22] + NET io_oeb[22] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 225630 258000 ) N ;
-    - io_oeb[23] + NET io_oeb[23] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[23] + NET io_oeb[23] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 132940 ) N ;
-    - io_oeb[24] + NET io_oeb[24] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[24] + NET io_oeb[24] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 258740 ) N ;
-    - io_oeb[25] + NET io_oeb[25] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[25] + NET io_oeb[25] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 122590 258000 ) N ;
-    - io_oeb[26] + NET io_oeb[26] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[26] + NET io_oeb[26] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 115940 ) N ;
-    - io_oeb[27] + NET io_oeb[27] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[27] + NET io_oeb[27] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 143140 ) N ;
-    - io_oeb[28] + NET io_oeb[28] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[28] + NET io_oeb[28] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 6670 258000 ) N ;
-    - io_oeb[29] + NET io_oeb[29] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[29] + NET io_oeb[29] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 61410 2000 ) N ;
-    - io_oeb[2] + NET io_oeb[2] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[2] + NET io_oeb[2] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 258740 ) N ;
-    - io_oeb[30] + NET io_oeb[30] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[30] + NET io_oeb[30] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 248170 258000 ) N ;
-    - io_oeb[31] + NET io_oeb[31] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[31] + NET io_oeb[31] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 17340 ) N ;
-    - io_oeb[32] + NET io_oeb[32] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[32] + NET io_oeb[32] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 167670 2000 ) N ;
-    - io_oeb[33] + NET io_oeb[33] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[33] + NET io_oeb[33] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 112930 258000 ) N ;
-    - io_oeb[34] + NET io_oeb[34] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[34] + NET io_oeb[34] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 88740 ) N ;
-    - io_oeb[35] + NET io_oeb[35] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[35] + NET io_oeb[35] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 68340 ) N ;
-    - io_oeb[36] + NET io_oeb[36] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[36] + NET io_oeb[36] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 199870 2000 ) N ;
-    - io_oeb[37] + NET io_oeb[37] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[37] + NET io_oeb[37] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 197540 ) N ;
-    - io_oeb[3] + NET io_oeb[3] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[3] + NET io_oeb[3] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 228140 ) N ;
-    - io_oeb[4] + NET io_oeb[4] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[4] + NET io_oeb[4] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 224740 ) N ;
-    - io_oeb[5] + NET io_oeb[5] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[5] + NET io_oeb[5] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 183940 ) N ;
-    - io_oeb[6] + NET io_oeb[6] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[6] + NET io_oeb[6] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 106490 2000 ) N ;
-    - io_oeb[7] + NET io_oeb[7] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[7] + NET io_oeb[7] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 85340 ) N ;
-    - io_oeb[8] + NET io_oeb[8] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[8] + NET io_oeb[8] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 248540 ) N ;
-    - io_oeb[9] + NET io_oeb[9] + DIRECTION OUTPUT + USE SIGNAL
+    - io_oeb[9] + NET io_oeb[9] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 81940 ) N ;
-    - io_out[0] + NET io_out[0] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[0] + NET io_out[0] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 180550 258000 ) N ;
-    - io_out[10] + NET io_out[10] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[10] + NET io_out[10] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 221340 ) N ;
-    - io_out[11] + NET io_out[11] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[11] + NET io_out[11] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 47940 ) N ;
-    - io_out[12] + NET io_out[12] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[12] + NET io_out[12] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 244950 2000 ) N ;
-    - io_out[13] + NET io_out[13] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[13] + NET io_out[13] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 235290 2000 ) N ;
-    - io_out[14] + NET io_out[14] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[14] + NET io_out[14] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 61540 ) N ;
-    - io_out[15] + NET io_out[15] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[15] + NET io_out[15] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 186990 2000 ) N ;
-    - io_out[16] + NET io_out[16] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[16] + NET io_out[16] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 186990 258000 ) N ;
-    - io_out[17] + NET io_out[17] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[17] + NET io_out[17] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 193430 258000 ) N ;
-    - io_out[18] + NET io_out[18] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[18] + NET io_out[18] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 77510 258000 ) N ;
-    - io_out[19] + NET io_out[19] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[19] + NET io_out[19] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 17340 ) N ;
-    - io_out[1] + NET io_out[1] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[1] + NET io_out[1] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 64630 2000 ) N ;
-    - io_out[20] + NET io_out[20] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[20] + NET io_out[20] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 58190 2000 ) N ;
-    - io_out[21] + NET io_out[21] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[21] + NET io_out[21] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 241740 ) N ;
-    - io_out[22] + NET io_out[22] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[22] + NET io_out[22] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 174110 258000 ) N ;
-    - io_out[23] + NET io_out[23] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[23] + NET io_out[23] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 74290 258000 ) N ;
-    - io_out[24] + NET io_out[24] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[24] + NET io_out[24] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 231540 ) N ;
-    - io_out[25] + NET io_out[25] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[25] + NET io_out[25] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 170340 ) N ;
-    - io_out[26] + NET io_out[26] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[26] + NET io_out[26] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 136340 ) N ;
-    - io_out[27] + NET io_out[27] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[27] + NET io_out[27] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 37740 ) N ;
-    - io_out[28] + NET io_out[28] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[28] + NET io_out[28] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 222410 2000 ) N ;
-    - io_out[29] + NET io_out[29] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[29] + NET io_out[29] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 27540 ) N ;
-    - io_out[2] + NET io_out[2] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[2] + NET io_out[2] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 177140 ) N ;
-    - io_out[30] + NET io_out[30] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[30] + NET io_out[30] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 141910 258000 ) N ;
-    - io_out[31] + NET io_out[31] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[31] + NET io_out[31] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 231540 ) N ;
-    - io_out[32] + NET io_out[32] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[32] + NET io_out[32] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 212750 2000 ) N ;
-    - io_out[33] + NET io_out[33] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[33] + NET io_out[33] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 54740 ) N ;
-    - io_out[34] + NET io_out[34] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[34] + NET io_out[34] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 255340 ) N ;
-    - io_out[35] + NET io_out[35] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[35] + NET io_out[35] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 67850 2000 ) N ;
-    - io_out[36] + NET io_out[36] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[36] + NET io_out[36] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 135470 258000 ) N ;
-    - io_out[37] + NET io_out[37] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[37] + NET io_out[37] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 241730 258000 ) N ;
-    - io_out[3] + NET io_out[3] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[3] + NET io_out[3] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 228850 258000 ) N ;
-    - io_out[4] + NET io_out[4] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[4] + NET io_out[4] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 199870 258000 ) N ;
-    - io_out[5] + NET io_out[5] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[5] + NET io_out[5] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 51750 258000 ) N ;
-    - io_out[6] + NET io_out[6] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[6] + NET io_out[6] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 35650 258000 ) N ;
-    - io_out[7] + NET io_out[7] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[7] + NET io_out[7] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 170340 ) N ;
-    - io_out[8] + NET io_out[8] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[8] + NET io_out[8] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 13110 2000 ) N ;
-    - io_out[9] + NET io_out[9] + DIRECTION OUTPUT + USE SIGNAL
+    - io_out[9] + NET io_out[9] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 42090 258000 ) N ;
@@ -7482,51 +7482,51 @@ PINS 307 ;
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 41140 ) N ;
-    - rambus_wb_adr_o[0] + NET rambus_wb_adr_o[0] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_adr_o[0] + NET rambus_wb_adr_o[0] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 200940 ) N ;
-    - rambus_wb_adr_o[1] + NET rambus_wb_adr_o[1] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_adr_o[1] + NET rambus_wb_adr_o[1] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 234940 ) N ;
-    - rambus_wb_adr_o[2] + NET rambus_wb_adr_o[2] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_adr_o[2] + NET rambus_wb_adr_o[2] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 54970 258000 ) N ;
-    - rambus_wb_adr_o[3] + NET rambus_wb_adr_o[3] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_adr_o[3] + NET rambus_wb_adr_o[3] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 30940 ) N ;
-    - rambus_wb_adr_o[4] + NET rambus_wb_adr_o[4] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_adr_o[4] + NET rambus_wb_adr_o[4] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 255340 ) N ;
-    - rambus_wb_adr_o[5] + NET rambus_wb_adr_o[5] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_adr_o[5] + NET rambus_wb_adr_o[5] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 88740 ) N ;
-    - rambus_wb_adr_o[6] + NET rambus_wb_adr_o[6] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_adr_o[6] + NET rambus_wb_adr_o[6] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 34340 ) N ;
-    - rambus_wb_adr_o[7] + NET rambus_wb_adr_o[7] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_adr_o[7] + NET rambus_wb_adr_o[7] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 146540 ) N ;
-    - rambus_wb_adr_o[8] + NET rambus_wb_adr_o[8] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_adr_o[8] + NET rambus_wb_adr_o[8] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 45310 2000 ) N ;
-    - rambus_wb_adr_o[9] + NET rambus_wb_adr_o[9] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_adr_o[9] + NET rambus_wb_adr_o[9] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 10540 ) N ;
-    - rambus_wb_clk_o + NET rambus_wb_clk_o + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_clk_o + NET rambus_wb_clk_o + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 92140 ) N ;
-    - rambus_wb_cyc_o + NET rambus_wb_cyc_o + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_cyc_o + NET rambus_wb_cyc_o + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 25990 258000 ) N ;
@@ -7658,159 +7658,159 @@ PINS 307 ;
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 203090 258000 ) N ;
-    - rambus_wb_dat_o[0] + NET rambus_wb_dat_o[0] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[0] + NET rambus_wb_dat_o[0] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 95540 ) N ;
-    - rambus_wb_dat_o[10] + NET rambus_wb_dat_o[10] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[10] + NET rambus_wb_dat_o[10] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 151570 2000 ) N ;
-    - rambus_wb_dat_o[11] + NET rambus_wb_dat_o[11] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[11] + NET rambus_wb_dat_o[11] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 103270 2000 ) N ;
-    - rambus_wb_dat_o[12] + NET rambus_wb_dat_o[12] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[12] + NET rambus_wb_dat_o[12] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 209530 2000 ) N ;
-    - rambus_wb_dat_o[13] + NET rambus_wb_dat_o[13] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[13] + NET rambus_wb_dat_o[13] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 173740 ) N ;
-    - rambus_wb_dat_o[14] + NET rambus_wb_dat_o[14] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[14] + NET rambus_wb_dat_o[14] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 251940 ) N ;
-    - rambus_wb_dat_o[15] + NET rambus_wb_dat_o[15] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[15] + NET rambus_wb_dat_o[15] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 212750 258000 ) N ;
-    - rambus_wb_dat_o[16] + NET rambus_wb_dat_o[16] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[16] + NET rambus_wb_dat_o[16] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 6670 2000 ) N ;
-    - rambus_wb_dat_o[17] + NET rambus_wb_dat_o[17] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[17] + NET rambus_wb_dat_o[17] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 149940 ) N ;
-    - rambus_wb_dat_o[18] + NET rambus_wb_dat_o[18] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[18] + NET rambus_wb_dat_o[18] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 90390 2000 ) N ;
-    - rambus_wb_dat_o[19] + NET rambus_wb_dat_o[19] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[19] + NET rambus_wb_dat_o[19] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 103270 258000 ) N ;
-    - rambus_wb_dat_o[1] + NET rambus_wb_dat_o[1] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[1] + NET rambus_wb_dat_o[1] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 51340 ) N ;
-    - rambus_wb_dat_o[20] + NET rambus_wb_dat_o[20] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[20] + NET rambus_wb_dat_o[20] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 77510 2000 ) N ;
-    - rambus_wb_dat_o[21] + NET rambus_wb_dat_o[21] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[21] + NET rambus_wb_dat_o[21] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 154790 2000 ) N ;
-    - rambus_wb_dat_o[22] + NET rambus_wb_dat_o[22] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[22] + NET rambus_wb_dat_o[22] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 160140 ) N ;
-    - rambus_wb_dat_o[23] + NET rambus_wb_dat_o[23] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[23] + NET rambus_wb_dat_o[23] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 98940 ) N ;
-    - rambus_wb_dat_o[24] + NET rambus_wb_dat_o[24] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[24] + NET rambus_wb_dat_o[24] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 154790 258000 ) N ;
-    - rambus_wb_dat_o[25] + NET rambus_wb_dat_o[25] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[25] + NET rambus_wb_dat_o[25] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 81940 ) N ;
-    - rambus_wb_dat_o[26] + NET rambus_wb_dat_o[26] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[26] + NET rambus_wb_dat_o[26] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 116150 258000 ) N ;
-    - rambus_wb_dat_o[27] + NET rambus_wb_dat_o[27] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[27] + NET rambus_wb_dat_o[27] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 143140 ) N ;
-    - rambus_wb_dat_o[28] + NET rambus_wb_dat_o[28] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[28] + NET rambus_wb_dat_o[28] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 251940 ) N ;
-    - rambus_wb_dat_o[29] + NET rambus_wb_dat_o[29] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[29] + NET rambus_wb_dat_o[29] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 245140 ) N ;
-    - rambus_wb_dat_o[2] + NET rambus_wb_dat_o[2] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[2] + NET rambus_wb_dat_o[2] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 158010 2000 ) N ;
-    - rambus_wb_dat_o[30] + NET rambus_wb_dat_o[30] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[30] + NET rambus_wb_dat_o[30] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 207740 ) N ;
-    - rambus_wb_dat_o[31] + NET rambus_wb_dat_o[31] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[31] + NET rambus_wb_dat_o[31] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 232070 2000 ) N ;
-    - rambus_wb_dat_o[3] + NET rambus_wb_dat_o[3] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[3] + NET rambus_wb_dat_o[3] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 87170 258000 ) N ;
-    - rambus_wb_dat_o[4] + NET rambus_wb_dat_o[4] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[4] + NET rambus_wb_dat_o[4] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 163540 ) N ;
-    - rambus_wb_dat_o[5] + NET rambus_wb_dat_o[5] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[5] + NET rambus_wb_dat_o[5] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 161230 258000 ) N ;
-    - rambus_wb_dat_o[6] + NET rambus_wb_dat_o[6] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[6] + NET rambus_wb_dat_o[6] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 25990 2000 ) N ;
-    - rambus_wb_dat_o[7] + NET rambus_wb_dat_o[7] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[7] + NET rambus_wb_dat_o[7] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 71740 ) N ;
-    - rambus_wb_dat_o[8] + NET rambus_wb_dat_o[8] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[8] + NET rambus_wb_dat_o[8] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 119370 2000 ) N ;
-    - rambus_wb_dat_o[9] + NET rambus_wb_dat_o[9] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_dat_o[9] + NET rambus_wb_dat_o[9] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 61410 258000 ) N ;
-    - rambus_wb_rst_o + NET rambus_wb_rst_o + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_rst_o + NET rambus_wb_rst_o + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 44540 ) N ;
-    - rambus_wb_sel_o[0] + NET rambus_wb_sel_o[0] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_sel_o[0] + NET rambus_wb_sel_o[0] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 206310 2000 ) N ;
-    - rambus_wb_sel_o[1] + NET rambus_wb_sel_o[1] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_sel_o[1] + NET rambus_wb_sel_o[1] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 164450 258000 ) N ;
-    - rambus_wb_sel_o[2] + NET rambus_wb_sel_o[2] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_sel_o[2] + NET rambus_wb_sel_o[2] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 48530 258000 ) N ;
-    - rambus_wb_sel_o[3] + NET rambus_wb_sel_o[3] + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_sel_o[3] + NET rambus_wb_sel_o[3] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 166940 ) N ;
-    - rambus_wb_stb_o + NET rambus_wb_stb_o + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_stb_o + NET rambus_wb_stb_o + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 148350 258000 ) N ;
-    - rambus_wb_we_o + NET rambus_wb_we_o + DIRECTION OUTPUT + USE SIGNAL
+    - rambus_wb_we_o + NET rambus_wb_we_o + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 24140 ) N ;
@@ -7831,7 +7831,7 @@ PINS 307 ;
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 132250 258000 ) N ;
-    - wbs_ack_o + NET wbs_ack_o + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_ack_o + NET wbs_ack_o + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 190740 ) N ;
@@ -8095,131 +8095,131 @@ PINS 307 ;
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 340 ) N ;
-    - wbs_dat_o[0] + NET wbs_dat_o[0] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[0] + NET wbs_dat_o[0] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 19550 2000 ) N ;
-    - wbs_dat_o[10] + NET wbs_dat_o[10] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[10] + NET wbs_dat_o[10] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 132940 ) N ;
-    - wbs_dat_o[11] + NET wbs_dat_o[11] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[11] + NET wbs_dat_o[11] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 3450 2000 ) N ;
-    - wbs_dat_o[12] + NET wbs_dat_o[12] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[12] + NET wbs_dat_o[12] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 224740 ) N ;
-    - wbs_dat_o[13] + NET wbs_dat_o[13] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[13] + NET wbs_dat_o[13] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 206310 258000 ) N ;
-    - wbs_dat_o[14] + NET wbs_dat_o[14] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[14] + NET wbs_dat_o[14] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 20740 ) N ;
-    - wbs_dat_o[15] + NET wbs_dat_o[15] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[15] + NET wbs_dat_o[15] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 196650 258000 ) N ;
-    - wbs_dat_o[16] + NET wbs_dat_o[16] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[16] + NET wbs_dat_o[16] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 98940 ) N ;
-    - wbs_dat_o[17] + NET wbs_dat_o[17] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[17] + NET wbs_dat_o[17] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 109140 ) N ;
-    - wbs_dat_o[18] + NET wbs_dat_o[18] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[18] + NET wbs_dat_o[18] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 161230 2000 ) N ;
-    - wbs_dat_o[19] + NET wbs_dat_o[19] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[19] + NET wbs_dat_o[19] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 230 2000 ) N ;
-    - wbs_dat_o[1] + NET wbs_dat_o[1] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[1] + NET wbs_dat_o[1] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 190210 2000 ) N ;
-    - wbs_dat_o[20] + NET wbs_dat_o[20] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[20] + NET wbs_dat_o[20] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 146540 ) N ;
-    - wbs_dat_o[21] + NET wbs_dat_o[21] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[21] + NET wbs_dat_o[21] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 20740 ) N ;
-    - wbs_dat_o[22] + NET wbs_dat_o[22] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[22] + NET wbs_dat_o[22] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 64940 ) N ;
-    - wbs_dat_o[23] + NET wbs_dat_o[23] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[23] + NET wbs_dat_o[23] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 105740 ) N ;
-    - wbs_dat_o[24] + NET wbs_dat_o[24] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[24] + NET wbs_dat_o[24] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 51750 2000 ) N ;
-    - wbs_dat_o[25] + NET wbs_dat_o[25] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[25] + NET wbs_dat_o[25] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 16330 2000 ) N ;
-    - wbs_dat_o[26] + NET wbs_dat_o[26] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[26] + NET wbs_dat_o[26] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 138690 258000 ) N ;
-    - wbs_dat_o[27] + NET wbs_dat_o[27] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[27] + NET wbs_dat_o[27] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 83950 258000 ) N ;
-    - wbs_dat_o[28] + NET wbs_dat_o[28] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[28] + NET wbs_dat_o[28] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 132250 2000 ) N ;
-    - wbs_dat_o[29] + NET wbs_dat_o[29] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[29] + NET wbs_dat_o[29] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 183770 258000 ) N ;
-    - wbs_dat_o[2] + NET wbs_dat_o[2] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[2] + NET wbs_dat_o[2] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 64940 ) N ;
-    - wbs_dat_o[30] + NET wbs_dat_o[30] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[30] + NET wbs_dat_o[30] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 180540 ) N ;
-    - wbs_dat_o[31] + NET wbs_dat_o[31] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[31] + NET wbs_dat_o[31] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 197540 ) N ;
-    - wbs_dat_o[3] + NET wbs_dat_o[3] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[3] + NET wbs_dat_o[3] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 54970 2000 ) N ;
-    - wbs_dat_o[4] + NET wbs_dat_o[4] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[4] + NET wbs_dat_o[4] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 93610 2000 ) N ;
-    - wbs_dat_o[5] + NET wbs_dat_o[5] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[5] + NET wbs_dat_o[5] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 2000 30940 ) N ;
-    - wbs_dat_o[6] + NET wbs_dat_o[6] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[6] + NET wbs_dat_o[6] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met3 ( -2000 -300 ) ( 2000 300 )
         + PLACED ( 248000 187340 ) N ;
-    - wbs_dat_o[7] + NET wbs_dat_o[7] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[7] + NET wbs_dat_o[7] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 148350 2000 ) N ;
-    - wbs_dat_o[8] + NET wbs_dat_o[8] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[8] + NET wbs_dat_o[8] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 170890 258000 ) N ;
-    - wbs_dat_o[9] + NET wbs_dat_o[9] + DIRECTION OUTPUT + USE SIGNAL
+    - wbs_dat_o[9] + NET wbs_dat_o[9] + DIRECTION INOUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 167670 258000 ) N ;

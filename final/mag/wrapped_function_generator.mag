@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1647612072
+timestamp 1651661543
 << viali >>
 rect 3801 49249 3835 49283
 rect 4261 49249 4295 49283
@@ -101779,183 +101779,183 @@ port 37 nsew signal input
 rlabel metal3 s 0 42848 800 42968 6 io_in[9]
 port 38 nsew signal input
 rlabel metal2 s 6458 0 6514 800 6 io_oeb[0]
-port 39 nsew signal tristate
+port 39 nsew signal bidirectional
 rlabel metal3 s 49200 24488 50000 24608 6 io_oeb[10]
-port 40 nsew signal tristate
+port 40 nsew signal bidirectional
 rlabel metal2 s 45098 0 45154 800 6 io_oeb[11]
-port 41 nsew signal tristate
+port 41 nsew signal bidirectional
 rlabel metal2 s 5814 0 5870 800 6 io_oeb[12]
-port 42 nsew signal tristate
+port 42 nsew signal bidirectional
 rlabel metal2 s 48318 0 48374 800 6 io_oeb[13]
-port 43 nsew signal tristate
+port 43 nsew signal bidirectional
 rlabel metal2 s 7746 51200 7802 52000 6 io_oeb[14]
-port 44 nsew signal tristate
+port 44 nsew signal bidirectional
 rlabel metal3 s 49200 43528 50000 43648 6 io_oeb[15]
-port 45 nsew signal tristate
+port 45 nsew signal bidirectional
 rlabel metal3 s 49200 4768 50000 4888 6 io_oeb[16]
-port 46 nsew signal tristate
+port 46 nsew signal bidirectional
 rlabel metal3 s 0 6808 800 6928 6 io_oeb[17]
-port 47 nsew signal tristate
+port 47 nsew signal bidirectional
 rlabel metal3 s 0 41488 800 41608 6 io_oeb[18]
-port 48 nsew signal tristate
+port 48 nsew signal bidirectional
 rlabel metal2 s 36726 0 36782 800 6 io_oeb[19]
-port 49 nsew signal tristate
+port 49 nsew signal bidirectional
 rlabel metal2 s 43166 51200 43222 52000 6 io_oeb[1]
-port 50 nsew signal tristate
+port 50 nsew signal bidirectional
 rlabel metal3 s 49200 46928 50000 47048 6 io_oeb[20]
-port 51 nsew signal tristate
+port 51 nsew signal bidirectional
 rlabel metal3 s 0 9528 800 9648 6 io_oeb[21]
-port 52 nsew signal tristate
+port 52 nsew signal bidirectional
 rlabel metal2 s 45098 51200 45154 52000 6 io_oeb[22]
-port 53 nsew signal tristate
+port 53 nsew signal bidirectional
 rlabel metal3 s 0 26528 800 26648 6 io_oeb[23]
-port 54 nsew signal tristate
+port 54 nsew signal bidirectional
 rlabel metal3 s 49200 51688 50000 51808 6 io_oeb[24]
-port 55 nsew signal tristate
+port 55 nsew signal bidirectional
 rlabel metal2 s 24490 51200 24546 52000 6 io_oeb[25]
-port 56 nsew signal tristate
+port 56 nsew signal bidirectional
 rlabel metal3 s 0 23128 800 23248 6 io_oeb[26]
-port 57 nsew signal tristate
+port 57 nsew signal bidirectional
 rlabel metal3 s 49200 28568 50000 28688 6 io_oeb[27]
-port 58 nsew signal tristate
+port 58 nsew signal bidirectional
 rlabel metal2 s 1306 51200 1362 52000 6 io_oeb[28]
-port 59 nsew signal tristate
+port 59 nsew signal bidirectional
 rlabel metal2 s 12254 0 12310 800 6 io_oeb[29]
-port 60 nsew signal tristate
+port 60 nsew signal bidirectional
 rlabel metal3 s 0 51688 800 51808 6 io_oeb[2]
-port 61 nsew signal tristate
+port 61 nsew signal bidirectional
 rlabel metal2 s 49606 51200 49662 52000 6 io_oeb[30]
-port 62 nsew signal tristate
+port 62 nsew signal bidirectional
 rlabel metal3 s 0 3408 800 3528 6 io_oeb[31]
-port 63 nsew signal tristate
+port 63 nsew signal bidirectional
 rlabel metal2 s 33506 0 33562 800 6 io_oeb[32]
-port 64 nsew signal tristate
+port 64 nsew signal bidirectional
 rlabel metal2 s 22558 51200 22614 52000 6 io_oeb[33]
-port 65 nsew signal tristate
+port 65 nsew signal bidirectional
 rlabel metal3 s 0 17688 800 17808 6 io_oeb[34]
-port 66 nsew signal tristate
+port 66 nsew signal bidirectional
 rlabel metal3 s 0 13608 800 13728 6 io_oeb[35]
-port 67 nsew signal tristate
+port 67 nsew signal bidirectional
 rlabel metal2 s 39946 0 40002 800 6 io_oeb[36]
-port 68 nsew signal tristate
+port 68 nsew signal bidirectional
 rlabel metal3 s 0 39448 800 39568 6 io_oeb[37]
-port 69 nsew signal tristate
+port 69 nsew signal bidirectional
 rlabel metal3 s 49200 45568 50000 45688 6 io_oeb[3]
-port 70 nsew signal tristate
+port 70 nsew signal bidirectional
 rlabel metal3 s 0 44888 800 45008 6 io_oeb[4]
-port 71 nsew signal tristate
+port 71 nsew signal bidirectional
 rlabel metal3 s 49200 36728 50000 36848 6 io_oeb[5]
-port 72 nsew signal tristate
+port 72 nsew signal bidirectional
 rlabel metal2 s 21270 0 21326 800 6 io_oeb[6]
-port 73 nsew signal tristate
+port 73 nsew signal bidirectional
 rlabel metal3 s 49200 17008 50000 17128 6 io_oeb[7]
-port 74 nsew signal tristate
+port 74 nsew signal bidirectional
 rlabel metal3 s 49200 49648 50000 49768 6 io_oeb[8]
-port 75 nsew signal tristate
+port 75 nsew signal bidirectional
 rlabel metal3 s 49200 16328 50000 16448 6 io_oeb[9]
-port 76 nsew signal tristate
+port 76 nsew signal bidirectional
 rlabel metal2 s 36082 51200 36138 52000 6 io_out[0]
-port 77 nsew signal tristate
+port 77 nsew signal bidirectional
 rlabel metal3 s 49200 44208 50000 44328 6 io_out[10]
-port 78 nsew signal tristate
+port 78 nsew signal bidirectional
 rlabel metal3 s 49200 9528 50000 9648 6 io_out[11]
-port 79 nsew signal tristate
+port 79 nsew signal bidirectional
 rlabel metal2 s 48962 0 49018 800 6 io_out[12]
-port 80 nsew signal tristate
+port 80 nsew signal bidirectional
 rlabel metal2 s 47030 0 47086 800 6 io_out[13]
-port 81 nsew signal tristate
+port 81 nsew signal bidirectional
 rlabel metal3 s 49200 12248 50000 12368 6 io_out[14]
-port 82 nsew signal tristate
+port 82 nsew signal bidirectional
 rlabel metal2 s 37370 0 37426 800 6 io_out[15]
-port 83 nsew signal tristate
+port 83 nsew signal bidirectional
 rlabel metal2 s 37370 51200 37426 52000 6 io_out[16]
-port 84 nsew signal tristate
+port 84 nsew signal bidirectional
 rlabel metal2 s 38658 51200 38714 52000 6 io_out[17]
-port 85 nsew signal tristate
+port 85 nsew signal bidirectional
 rlabel metal2 s 15474 51200 15530 52000 6 io_out[18]
-port 86 nsew signal tristate
+port 86 nsew signal bidirectional
 rlabel metal3 s 49200 3408 50000 3528 6 io_out[19]
-port 87 nsew signal tristate
+port 87 nsew signal bidirectional
 rlabel metal2 s 12898 0 12954 800 6 io_out[1]
-port 88 nsew signal tristate
+port 88 nsew signal bidirectional
 rlabel metal2 s 11610 0 11666 800 6 io_out[20]
-port 89 nsew signal tristate
+port 89 nsew signal bidirectional
 rlabel metal3 s 0 48288 800 48408 6 io_out[21]
-port 90 nsew signal tristate
+port 90 nsew signal bidirectional
 rlabel metal2 s 34794 51200 34850 52000 6 io_out[22]
-port 91 nsew signal tristate
+port 91 nsew signal bidirectional
 rlabel metal2 s 14830 51200 14886 52000 6 io_out[23]
-port 92 nsew signal tristate
+port 92 nsew signal bidirectional
 rlabel metal3 s 0 46248 800 46368 6 io_out[24]
-port 93 nsew signal tristate
+port 93 nsew signal bidirectional
 rlabel metal3 s 0 34008 800 34128 6 io_out[25]
-port 94 nsew signal tristate
+port 94 nsew signal bidirectional
 rlabel metal3 s 0 27208 800 27328 6 io_out[26]
-port 95 nsew signal tristate
+port 95 nsew signal bidirectional
 rlabel metal3 s 49200 7488 50000 7608 6 io_out[27]
-port 96 nsew signal tristate
+port 96 nsew signal bidirectional
 rlabel metal2 s 44454 0 44510 800 6 io_out[28]
-port 97 nsew signal tristate
+port 97 nsew signal bidirectional
 rlabel metal3 s 0 5448 800 5568 6 io_out[29]
-port 98 nsew signal tristate
+port 98 nsew signal bidirectional
 rlabel metal3 s 49200 35368 50000 35488 6 io_out[2]
-port 99 nsew signal tristate
+port 99 nsew signal bidirectional
 rlabel metal2 s 28354 51200 28410 52000 6 io_out[30]
-port 100 nsew signal tristate
+port 100 nsew signal bidirectional
 rlabel metal3 s 49200 46248 50000 46368 6 io_out[31]
-port 101 nsew signal tristate
+port 101 nsew signal bidirectional
 rlabel metal2 s 42522 0 42578 800 6 io_out[32]
-port 102 nsew signal tristate
+port 102 nsew signal bidirectional
 rlabel metal3 s 49200 10888 50000 11008 6 io_out[33]
-port 103 nsew signal tristate
+port 103 nsew signal bidirectional
 rlabel metal3 s 0 51008 800 51128 6 io_out[34]
-port 104 nsew signal tristate
+port 104 nsew signal bidirectional
 rlabel metal2 s 13542 0 13598 800 6 io_out[35]
-port 105 nsew signal tristate
+port 105 nsew signal bidirectional
 rlabel metal2 s 27066 51200 27122 52000 6 io_out[36]
-port 106 nsew signal tristate
+port 106 nsew signal bidirectional
 rlabel metal2 s 48318 51200 48374 52000 6 io_out[37]
-port 107 nsew signal tristate
+port 107 nsew signal bidirectional
 rlabel metal2 s 45742 51200 45798 52000 6 io_out[3]
-port 108 nsew signal tristate
+port 108 nsew signal bidirectional
 rlabel metal2 s 39946 51200 40002 52000 6 io_out[4]
-port 109 nsew signal tristate
+port 109 nsew signal bidirectional
 rlabel metal2 s 10322 51200 10378 52000 6 io_out[5]
-port 110 nsew signal tristate
+port 110 nsew signal bidirectional
 rlabel metal2 s 7102 51200 7158 52000 6 io_out[6]
-port 111 nsew signal tristate
+port 111 nsew signal bidirectional
 rlabel metal3 s 49200 34008 50000 34128 6 io_out[7]
-port 112 nsew signal tristate
+port 112 nsew signal bidirectional
 rlabel metal2 s 2594 0 2650 800 6 io_out[8]
-port 113 nsew signal tristate
+port 113 nsew signal bidirectional
 rlabel metal2 s 8390 51200 8446 52000 6 io_out[9]
-port 114 nsew signal tristate
+port 114 nsew signal bidirectional
 rlabel metal3 s 0 8168 800 8288 6 rambus_wb_ack_i
 port 115 nsew signal input
 rlabel metal3 s 49200 40128 50000 40248 6 rambus_wb_adr_o[0]
-port 116 nsew signal tristate
+port 116 nsew signal bidirectional
 rlabel metal3 s 0 46928 800 47048 6 rambus_wb_adr_o[1]
-port 117 nsew signal tristate
+port 117 nsew signal bidirectional
 rlabel metal2 s 10966 51200 11022 52000 6 rambus_wb_adr_o[2]
-port 118 nsew signal tristate
+port 118 nsew signal bidirectional
 rlabel metal3 s 49200 6128 50000 6248 6 rambus_wb_adr_o[3]
-port 119 nsew signal tristate
+port 119 nsew signal bidirectional
 rlabel metal3 s 49200 51008 50000 51128 6 rambus_wb_adr_o[4]
-port 120 nsew signal tristate
+port 120 nsew signal bidirectional
 rlabel metal3 s 49200 17688 50000 17808 6 rambus_wb_adr_o[5]
-port 121 nsew signal tristate
+port 121 nsew signal bidirectional
 rlabel metal3 s 49200 6808 50000 6928 6 rambus_wb_adr_o[6]
-port 122 nsew signal tristate
+port 122 nsew signal bidirectional
 rlabel metal3 s 49200 29248 50000 29368 6 rambus_wb_adr_o[7]
-port 123 nsew signal tristate
+port 123 nsew signal bidirectional
 rlabel metal2 s 9034 0 9090 800 6 rambus_wb_adr_o[8]
-port 124 nsew signal tristate
+port 124 nsew signal bidirectional
 rlabel metal3 s 0 2048 800 2168 6 rambus_wb_adr_o[9]
-port 125 nsew signal tristate
+port 125 nsew signal bidirectional
 rlabel metal3 s 0 18368 800 18488 6 rambus_wb_clk_o
-port 126 nsew signal tristate
+port 126 nsew signal bidirectional
 rlabel metal2 s 5170 51200 5226 52000 6 rambus_wb_cyc_o
-port 127 nsew signal tristate
+port 127 nsew signal bidirectional
 rlabel metal2 s 13542 51200 13598 52000 6 rambus_wb_dat_i[0]
 port 128 nsew signal input
 rlabel metal2 s 22558 0 22614 800 6 rambus_wb_dat_i[10]
@@ -102021,83 +102021,83 @@ port 158 nsew signal input
 rlabel metal2 s 40590 51200 40646 52000 6 rambus_wb_dat_i[9]
 port 159 nsew signal input
 rlabel metal3 s 0 19048 800 19168 6 rambus_wb_dat_o[0]
-port 160 nsew signal tristate
+port 160 nsew signal bidirectional
 rlabel metal2 s 30286 0 30342 800 6 rambus_wb_dat_o[10]
-port 161 nsew signal tristate
+port 161 nsew signal bidirectional
 rlabel metal2 s 20626 0 20682 800 6 rambus_wb_dat_o[11]
-port 162 nsew signal tristate
+port 162 nsew signal bidirectional
 rlabel metal2 s 41878 0 41934 800 6 rambus_wb_dat_o[12]
-port 163 nsew signal tristate
+port 163 nsew signal bidirectional
 rlabel metal3 s 49200 34688 50000 34808 6 rambus_wb_dat_o[13]
-port 164 nsew signal tristate
+port 164 nsew signal bidirectional
 rlabel metal3 s 0 50328 800 50448 6 rambus_wb_dat_o[14]
-port 165 nsew signal tristate
+port 165 nsew signal bidirectional
 rlabel metal2 s 42522 51200 42578 52000 6 rambus_wb_dat_o[15]
-port 166 nsew signal tristate
+port 166 nsew signal bidirectional
 rlabel metal2 s 1306 0 1362 800 6 rambus_wb_dat_o[16]
-port 167 nsew signal tristate
+port 167 nsew signal bidirectional
 rlabel metal3 s 0 29928 800 30048 6 rambus_wb_dat_o[17]
-port 168 nsew signal tristate
+port 168 nsew signal bidirectional
 rlabel metal2 s 18050 0 18106 800 6 rambus_wb_dat_o[18]
-port 169 nsew signal tristate
+port 169 nsew signal bidirectional
 rlabel metal2 s 20626 51200 20682 52000 6 rambus_wb_dat_o[19]
-port 170 nsew signal tristate
+port 170 nsew signal bidirectional
 rlabel metal3 s 0 10208 800 10328 6 rambus_wb_dat_o[1]
-port 171 nsew signal tristate
+port 171 nsew signal bidirectional
 rlabel metal2 s 15474 0 15530 800 6 rambus_wb_dat_o[20]
-port 172 nsew signal tristate
+port 172 nsew signal bidirectional
 rlabel metal2 s 30930 0 30986 800 6 rambus_wb_dat_o[21]
-port 173 nsew signal tristate
+port 173 nsew signal bidirectional
 rlabel metal3 s 0 31968 800 32088 6 rambus_wb_dat_o[22]
-port 174 nsew signal tristate
+port 174 nsew signal bidirectional
 rlabel metal3 s 49200 19728 50000 19848 6 rambus_wb_dat_o[23]
-port 175 nsew signal tristate
+port 175 nsew signal bidirectional
 rlabel metal2 s 30930 51200 30986 52000 6 rambus_wb_dat_o[24]
-port 176 nsew signal tristate
+port 176 nsew signal bidirectional
 rlabel metal3 s 0 16328 800 16448 6 rambus_wb_dat_o[25]
-port 177 nsew signal tristate
+port 177 nsew signal bidirectional
 rlabel metal2 s 23202 51200 23258 52000 6 rambus_wb_dat_o[26]
-port 178 nsew signal tristate
+port 178 nsew signal bidirectional
 rlabel metal3 s 0 28568 800 28688 6 rambus_wb_dat_o[27]
-port 179 nsew signal tristate
+port 179 nsew signal bidirectional
 rlabel metal3 s 49200 50328 50000 50448 6 rambus_wb_dat_o[28]
-port 180 nsew signal tristate
+port 180 nsew signal bidirectional
 rlabel metal3 s 0 48968 800 49088 6 rambus_wb_dat_o[29]
-port 181 nsew signal tristate
+port 181 nsew signal bidirectional
 rlabel metal2 s 31574 0 31630 800 6 rambus_wb_dat_o[2]
-port 182 nsew signal tristate
+port 182 nsew signal bidirectional
 rlabel metal3 s 49200 41488 50000 41608 6 rambus_wb_dat_o[30]
-port 183 nsew signal tristate
+port 183 nsew signal bidirectional
 rlabel metal2 s 46386 0 46442 800 6 rambus_wb_dat_o[31]
-port 184 nsew signal tristate
+port 184 nsew signal bidirectional
 rlabel metal2 s 17406 51200 17462 52000 6 rambus_wb_dat_o[3]
-port 185 nsew signal tristate
+port 185 nsew signal bidirectional
 rlabel metal3 s 0 32648 800 32768 6 rambus_wb_dat_o[4]
-port 186 nsew signal tristate
+port 186 nsew signal bidirectional
 rlabel metal2 s 32218 51200 32274 52000 6 rambus_wb_dat_o[5]
-port 187 nsew signal tristate
+port 187 nsew signal bidirectional
 rlabel metal2 s 5170 0 5226 800 6 rambus_wb_dat_o[6]
-port 188 nsew signal tristate
+port 188 nsew signal bidirectional
 rlabel metal3 s 49200 14288 50000 14408 6 rambus_wb_dat_o[7]
-port 189 nsew signal tristate
+port 189 nsew signal bidirectional
 rlabel metal2 s 23846 0 23902 800 6 rambus_wb_dat_o[8]
-port 190 nsew signal tristate
+port 190 nsew signal bidirectional
 rlabel metal2 s 12254 51200 12310 52000 6 rambus_wb_dat_o[9]
-port 191 nsew signal tristate
+port 191 nsew signal bidirectional
 rlabel metal3 s 0 8848 800 8968 6 rambus_wb_rst_o
-port 192 nsew signal tristate
+port 192 nsew signal bidirectional
 rlabel metal2 s 41234 0 41290 800 6 rambus_wb_sel_o[0]
-port 193 nsew signal tristate
+port 193 nsew signal bidirectional
 rlabel metal2 s 32862 51200 32918 52000 6 rambus_wb_sel_o[1]
-port 194 nsew signal tristate
+port 194 nsew signal bidirectional
 rlabel metal2 s 9678 51200 9734 52000 6 rambus_wb_sel_o[2]
-port 195 nsew signal tristate
+port 195 nsew signal bidirectional
 rlabel metal3 s 0 33328 800 33448 6 rambus_wb_sel_o[3]
-port 196 nsew signal tristate
+port 196 nsew signal bidirectional
 rlabel metal2 s 29642 51200 29698 52000 6 rambus_wb_stb_o
-port 197 nsew signal tristate
+port 197 nsew signal bidirectional
 rlabel metal3 s 0 4768 800 4888 6 rambus_wb_we_o
-port 198 nsew signal tristate
+port 198 nsew signal bidirectional
 rlabel metal4 s 4208 2128 4528 49552 6 vccd1
 port 199 nsew power input
 rlabel metal4 s 34928 2128 35248 49552 6 vccd1
@@ -102109,7 +102109,7 @@ port 201 nsew signal input
 rlabel metal2 s 26422 51200 26478 52000 6 wb_rst_i
 port 202 nsew signal input
 rlabel metal3 s 0 38088 800 38208 6 wbs_ack_o
-port 203 nsew signal tristate
+port 203 nsew signal bidirectional
 rlabel metal3 s 0 31288 800 31408 6 wbs_adr_i[0]
 port 204 nsew signal input
 rlabel metal2 s 38014 51200 38070 52000 6 wbs_adr_i[10]
@@ -102241,69 +102241,69 @@ port 267 nsew signal input
 rlabel metal3 s 49200 8 50000 128 6 wbs_dat_i[9]
 port 268 nsew signal input
 rlabel metal2 s 3882 0 3938 800 6 wbs_dat_o[0]
-port 269 nsew signal tristate
+port 269 nsew signal bidirectional
 rlabel metal3 s 49200 26528 50000 26648 6 wbs_dat_o[10]
-port 270 nsew signal tristate
+port 270 nsew signal bidirectional
 rlabel metal2 s 662 0 718 800 6 wbs_dat_o[11]
-port 271 nsew signal tristate
+port 271 nsew signal bidirectional
 rlabel metal3 s 49200 44888 50000 45008 6 wbs_dat_o[12]
-port 272 nsew signal tristate
+port 272 nsew signal bidirectional
 rlabel metal2 s 41234 51200 41290 52000 6 wbs_dat_o[13]
-port 273 nsew signal tristate
+port 273 nsew signal bidirectional
 rlabel metal3 s 49200 4088 50000 4208 6 wbs_dat_o[14]
-port 274 nsew signal tristate
+port 274 nsew signal bidirectional
 rlabel metal2 s 39302 51200 39358 52000 6 wbs_dat_o[15]
-port 275 nsew signal tristate
+port 275 nsew signal bidirectional
 rlabel metal3 s 0 19728 800 19848 6 wbs_dat_o[16]
-port 276 nsew signal tristate
+port 276 nsew signal bidirectional
 rlabel metal3 s 0 21768 800 21888 6 wbs_dat_o[17]
-port 277 nsew signal tristate
+port 277 nsew signal bidirectional
 rlabel metal2 s 32218 0 32274 800 6 wbs_dat_o[18]
-port 278 nsew signal tristate
+port 278 nsew signal bidirectional
 rlabel metal2 s 18 0 74 800 6 wbs_dat_o[19]
-port 279 nsew signal tristate
+port 279 nsew signal bidirectional
 rlabel metal2 s 38014 0 38070 800 6 wbs_dat_o[1]
-port 280 nsew signal tristate
+port 280 nsew signal bidirectional
 rlabel metal3 s 0 29248 800 29368 6 wbs_dat_o[20]
-port 281 nsew signal tristate
+port 281 nsew signal bidirectional
 rlabel metal3 s 0 4088 800 4208 6 wbs_dat_o[21]
-port 282 nsew signal tristate
+port 282 nsew signal bidirectional
 rlabel metal3 s 0 12928 800 13048 6 wbs_dat_o[22]
-port 283 nsew signal tristate
+port 283 nsew signal bidirectional
 rlabel metal3 s 0 21088 800 21208 6 wbs_dat_o[23]
-port 284 nsew signal tristate
+port 284 nsew signal bidirectional
 rlabel metal2 s 10322 0 10378 800 6 wbs_dat_o[24]
-port 285 nsew signal tristate
+port 285 nsew signal bidirectional
 rlabel metal2 s 3238 0 3294 800 6 wbs_dat_o[25]
-port 286 nsew signal tristate
+port 286 nsew signal bidirectional
 rlabel metal2 s 27710 51200 27766 52000 6 wbs_dat_o[26]
-port 287 nsew signal tristate
+port 287 nsew signal bidirectional
 rlabel metal2 s 16762 51200 16818 52000 6 wbs_dat_o[27]
-port 288 nsew signal tristate
+port 288 nsew signal bidirectional
 rlabel metal2 s 26422 0 26478 800 6 wbs_dat_o[28]
-port 289 nsew signal tristate
+port 289 nsew signal bidirectional
 rlabel metal2 s 36726 51200 36782 52000 6 wbs_dat_o[29]
-port 290 nsew signal tristate
+port 290 nsew signal bidirectional
 rlabel metal3 s 49200 12928 50000 13048 6 wbs_dat_o[2]
-port 291 nsew signal tristate
+port 291 nsew signal bidirectional
 rlabel metal3 s 0 36048 800 36168 6 wbs_dat_o[30]
-port 292 nsew signal tristate
+port 292 nsew signal bidirectional
 rlabel metal3 s 49200 39448 50000 39568 6 wbs_dat_o[31]
-port 293 nsew signal tristate
+port 293 nsew signal bidirectional
 rlabel metal2 s 10966 0 11022 800 6 wbs_dat_o[3]
-port 294 nsew signal tristate
+port 294 nsew signal bidirectional
 rlabel metal2 s 18694 0 18750 800 6 wbs_dat_o[4]
-port 295 nsew signal tristate
+port 295 nsew signal bidirectional
 rlabel metal3 s 0 6128 800 6248 6 wbs_dat_o[5]
-port 296 nsew signal tristate
+port 296 nsew signal bidirectional
 rlabel metal3 s 49200 37408 50000 37528 6 wbs_dat_o[6]
-port 297 nsew signal tristate
+port 297 nsew signal bidirectional
 rlabel metal2 s 29642 0 29698 800 6 wbs_dat_o[7]
-port 298 nsew signal tristate
+port 298 nsew signal bidirectional
 rlabel metal2 s 34150 51200 34206 52000 6 wbs_dat_o[8]
-port 299 nsew signal tristate
+port 299 nsew signal bidirectional
 rlabel metal2 s 33506 51200 33562 52000 6 wbs_dat_o[9]
-port 300 nsew signal tristate
+port 300 nsew signal bidirectional
 rlabel metal3 s 0 49648 800 49768 6 wbs_sel_i[0]
 port 301 nsew signal input
 rlabel metal2 s 5814 51200 5870 52000 6 wbs_sel_i[1]
